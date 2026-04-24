@@ -1,7 +1,9 @@
+
 import { Link } from "react-router-dom";
 import "./Header.css";
 import { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import logo from "../../../assets/logo.png";
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -23,7 +25,7 @@ const Header = () => {
 
                     <div className="header-logo">
                         <Link to="/">
-                            <img src="src/assets/logo.png" alt="Logo" className="logo-kl" />
+                            <img src={logo} alt="Logo" className="logo-kl" />
                         </Link>
                     </div>
 

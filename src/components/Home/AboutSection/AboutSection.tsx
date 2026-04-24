@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import owner from "../../../assets/owner.jpeg";
 import "./AboutSection.css";
 
 type TabType = "mission" | "vision" | "value";
@@ -59,7 +60,7 @@ const AboutSection: React.FC = () => {
                         data-aos="zoom-in"
                         data-aos-delay="200"
                     >
-                        <img src="src/assets/owner.jpeg" alt="owner" />
+                        <img src={owner} alt="owner" />
                     </div>
                 </div>
 

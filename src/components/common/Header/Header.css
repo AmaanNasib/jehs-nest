@@ -1,0 +1,197 @@
+/* ================= HEADER ================= */
+
+.header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    top: 40px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+/* SCROLL STATE */
+.header.scrolled {
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    top: 0;
+}
+
+/* ================= CONTAINER ================= */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 80px;
+    /* consistent height */
+}
+
+/* ================= LOGO ================= */
+
+.logo-kl {
+    width: 80px;
+    background: #fff;
+    border-radius: 100%;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+/* ================= NAV ================= */
+
+.header-nav {
+    display: flex;
+    align-items: center;
+
+    /* responsive gap */
+    gap: clamp(16px, 2vw, 28px);
+}
+
+.header-nav a {
+    font-size: 14px;
+    color: #fff;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+.header.scrolled .header-nav a {
+    color: #000;
+}
+
+.header-nav a:hover {
+    color: var(--color-primary);
+}
+
+/* ================= CTA ================= */
+
+.header-cta button {
+    background: var(--color-primary);
+    color: var(--color-surface);
+
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: var(--radius-sm);
+
+    white-space: nowrap;
+    transition: 0.3s ease;
+}
+
+.header-cta button:hover {
+    background: var(--color-secondary);
+    color: #fff;
+}
+
+/* ================= MENU ICON ================= */
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header.scrolled .menu-toggle {
+    color: #000;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 992px) {
+    .header-nav {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header-container {
+        height: 70px;
+    }
+
+    .header-nav,
+    .header-cta {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+/* ================= SIDEBAR ================= */
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+
+    width: 280px;
+    height: 100%;
+
+    background: #fff;
+    z-index: 2000;
+
+    padding: 24px;
+    transition: 0.35s ease;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu.active {
+    right: 0;
+}
+
+/* HEADER */
+.mobile-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.mobile-menu-header span {
+    font-weight: 600;
+}
+
+.mobile-menu-header svg {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* LINKS */
+.mobile-menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.mobile-menu a {
+    color: #000;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.mobile-menu a:hover {
+    color: var(--color-primary);
+}
+
+/* CTA */
+.mobile-cta {
+    margin-top: auto;
+    background: var(--color-primary);
+    padding: 12px;
+    border: none;
+    font-size: 14px;
+}
+
+/* OVERLAY */
+.menu-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1500;
+}

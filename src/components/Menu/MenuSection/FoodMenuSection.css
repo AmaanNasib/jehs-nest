@@ -1,0 +1,122 @@
+.food-menu-section {
+    padding: 100px 0;
+    background: #f5f2ee;
+}
+
+/* HEADER */
+.food-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.food-menu-tag {
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.food-menu-header h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-top: 6px;
+    color: var(--color-secondary);
+}
+
+/* BUTTON */
+.food-menu-btn {
+    background: #d9ef4a;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.food-menu-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* GRID */
+.food-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* CARD */
+.food-menu-card {
+    transition: transform 0.3s ease;
+}
+
+.food-menu-card:hover {
+    transform: translateY(-6px);
+}
+
+/* IMAGE */
+.food-menu-img img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* CONTENT */
+.food-menu-content {
+    margin-top: 14px;
+}
+
+.food-menu-content h4 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: var(--color-secondary);
+}
+
+.food-menu-content p {
+    font-size: 13px;
+    color: var(--color-text-light);
+    margin-bottom: 12px;
+}
+
+/* PRICE */
+.food-menu-price {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+}
+
+.food-menu-price span {
+    color: #666;
+}
+
+.food-menu-price b {
+    margin-left: 4px;
+    color: var(--color-secondary);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+    .food-menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .food-menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .food-menu-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .food-menu-header h2 {
+        font-size: 28px;
+    }
+}

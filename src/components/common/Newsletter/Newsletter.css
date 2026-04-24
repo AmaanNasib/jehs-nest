@@ -1,0 +1,101 @@
+.newsletter {
+    background-color: var(--color-primary);
+    padding: 50px 0;
+}
+
+.newsletter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* LEFT */
+.newsletter-left h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--color-black);
+}
+
+/* Input */
+.newsletter-input {
+    display: flex;
+    align-items: center;
+    background: var(--color-white);
+    /* FIX: contrast */
+    border-radius: var(--radius-md);
+    padding: 8px 8px 8px 16px;
+    max-width: 500px;
+    border: 1px solid var(--color-border);
+}
+
+.newsletter-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: var(--color-text);
+}
+
+.newsletter-input button {
+    background: var(--color-black);
+    /* FIX: strong CTA */
+    color: var(--color-white);
+    padding: 10px 20px;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+}
+
+/* Divider */
+.newsletter-divider {
+    width: 1px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* RIGHT */
+.newsletter-right h3 {
+    font-size: 42px;
+    color: var(--color-black);
+}
+
+.newsletter-right h3 span {
+    font-size: 18px;
+}
+
+.newsletter-right p {
+    margin: 10px 0 16px;
+    color: var(--color-text);
+    max-width: 420px;
+}
+
+/* Outline button */
+.outline-btn {
+    background: transparent;
+    border: 1px solid var(--color-black);
+    padding: 10px 18px;
+    border-radius: var(--radius-sm);
+    color: var(--color-black);
+    transition: 0.3s;
+}
+
+.outline-btn:hover {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .newsletter-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter-divider {
+        display: none;
+    }
+
+    .newsletter-input {
+        margin: 0 auto;
+    }
+}

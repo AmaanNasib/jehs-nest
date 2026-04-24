@@ -1,0 +1,79 @@
+.top-header {
+    width: 100%;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 13px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+
+/* CONTAINER */
+.top-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.top-header-left {
+    display: flex;
+    gap: clamp(10px, 2vw, 20px);
+}
+
+.top-header-right {
+    display: flex;
+    gap: clamp(10px, 2vw, 16px);
+}
+
+.top-header-left span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+
+
+.top-header-right a {
+    color: var(--color-white);
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.top-header-right a:hover {
+    opacity: 0.7;
+}
+
+/* ============================= */
+/* ✅ RESPONSIVE BREAKPOINTS */
+/* ============================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+    .top-header-left {
+        gap: 14px;
+    }
+
+    .top-header-right {
+        gap: 12px;
+    }
+}
+
+/* Small Tablet */
+@media (max-width: 768px) {
+
+    /* 🔥 HIDE COMPLETELY */
+    .top-header {
+        display: none;
+    }
+}
+
+/* Optional: Large Screens (spacing polish) */
+@media (min-width: 1400px) {
+    .top-header-container {
+        padding: 0 10px;
+    }
+}

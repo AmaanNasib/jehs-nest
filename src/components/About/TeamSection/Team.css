@@ -1,0 +1,150 @@
+.team-section {
+    background: var(--color-primary);
+    /* your green */
+    padding: 100px 0 160px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* bottom light layer */
+.team-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45%;
+    background: var(--color-bg);
+    /* your beige */
+    z-index: 0;
+}
+
+/* TITLE */
+.team-title {
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+    font-weight: 500;
+}
+
+/* WRAPPER */
+.team-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* 🔥 important for alignment */
+    gap: 30px;
+    position: relative;
+    z-index: 2;
+    flex-wrap: nowrap;
+}
+
+/* CARD BASE */
+.team-card {
+    background: #e8dfd3;
+    padding: 22px;
+    border-radius: 18px;
+    width: 220px;
+    text-align: center;
+
+    transition: 0.35s ease;
+    transform: translateY(40px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* CENTER CARD (MAIN FOCUS) */
+.team-card.active {
+    width: 270px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* IMAGE */
+.team-img {
+    width: 100%;
+    height: 170px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+.team-card.active .team-img {
+    height: 240px;
+}
+
+.team-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
+
+/* subtle hover */
+.team-card:hover img {
+    transform: scale(1.05);
+}
+
+/* NAME */
+.team-card h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: var(--color-secondary);
+}
+
+/* SOCIAL */
+.team-social {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-size: 13px;
+    color: var(--color-secondary);
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* Laptop */
+@media (max-width: 1200px) {
+    .team-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .team-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .team-card,
+    .team-card.active {
+        width: 45%;
+        transform: none;
+    }
+
+    .team-img,
+    .team-card.active .team-img {
+        height: 200px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .team-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card,
+    .team-card.active {
+        width: 90%;
+    }
+
+    .team-title {
+        font-size: 30px;
+    }
+}

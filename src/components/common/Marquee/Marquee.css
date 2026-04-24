@@ -1,0 +1,81 @@
+/* WRAPPER */
+.marquee {
+    width: 100%;
+    overflow: hidden;
+
+    background: var(--color-primary);
+    color: #111;
+
+    padding: 14px 0;
+
+    position: relative;
+}
+
+/* TRACK */
+.marquee-track {
+    display: flex;
+    width: max-content;
+
+    animation: marqueeScroll 14s linear infinite;
+    /* 🔥 faster */
+}
+
+/* PAUSE ON HOVER */
+.marquee:hover .marquee-track {
+    animation-play-state: paused;
+}
+
+/* TEXT */
+.marquee-text {
+    white-space: nowrap;
+
+    font-size: 20px;
+    /* 🔥 bigger */
+    font-weight: 600;
+    letter-spacing: 0.8px;
+
+    font-family: var(--font-heading);
+
+    padding-right: 100px;
+    /* breathing space */
+
+    opacity: 0.95;
+}
+
+/* SUBTLE TEXT POLISH */
+.marquee-text::selection {
+    background: #000;
+    color: #fff;
+}
+
+/* ANIMATION */
+@keyframes marqueeScroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* EDGE FADE (premium look) */
+.marquee::before,
+.marquee::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+}
+
+.marquee::before {
+    left: 0;
+    background: linear-gradient(to right, var(--color-primary), transparent);
+}
+
+.marquee::after {
+    right: 0;
+    background: linear-gradient(to left, var(--color-primary), transparent);
+}

@@ -1,0 +1,178 @@
+.why-section {
+    padding: 100px 0;
+    background: var(--color-bg);
+}
+
+/* WRAPPER */
+.why-wrapper {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+/* LEFT */
+.why-tag {
+    font-size: 13px;
+    color: var(--color-primary);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.why-left h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 14px 0;
+    color: var(--color-secondary);
+}
+
+.why-left p {
+    font-size: 15px;
+    color: var(--color-text-light);
+    max-width: 520px;
+    line-height: 1.7;
+}
+
+/* STATS */
+.why-stats {
+    display: flex;
+    gap: 50px;
+    margin: 30px 0;
+}
+
+.why-stats h3 {
+    font-size: 36px;
+    color: var(--color-primary);
+}
+
+.why-stats span {
+    font-size: 14px;
+    color: var(--color-text-light);
+}
+
+/* IMAGE */
+.why-image img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* RIGHT SIDE BACKGROUND */
+.why-right {
+    background: rgba(0, 0, 0, 0.03);
+    padding: 30px;
+    border-radius: 24px;
+}
+
+/* CARD */
+.why-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+}
+
+/* ITEM */
+.why-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 22px;
+    align-items: flex-start;
+}
+
+.why-item:last-child {
+    margin-bottom: 0;
+}
+
+/* ICON */
+.why-icon {
+    min-width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TEXT */
+.why-item h4 {
+    font-size: 17px;
+    margin-bottom: 6px;
+    color: var(--color-secondary);
+}
+
+.why-item p {
+    font-size: 14px;
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* Laptop */
+@media (max-width: 1200px) {
+    .why-wrapper {
+        gap: 40px;
+    }
+
+    .why-left h2 {
+        font-size: 40px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .why-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .why-left {
+        order: 1;
+    }
+
+    .why-right {
+        order: 2;
+        padding: 0px;
+    }
+
+    .why-stats {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .why-left h2 {
+        font-size: 32px;
+    }
+
+    .why-image img {
+        height: 260px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .why-section {
+        padding: 70px 0;
+    }
+
+    .why-stats {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .why-left h2 {
+        font-size: 26px;
+    }
+
+    .why-image img {
+        height: 220px;
+    }
+
+    .why-card {
+        padding: 20px;
+    }
+}

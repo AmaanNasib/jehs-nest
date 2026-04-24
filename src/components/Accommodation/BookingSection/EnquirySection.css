@@ -1,0 +1,138 @@
+.enquiry-section {
+    padding: 100px 0;
+    background: var(--color-bg);
+}
+
+/* WRAPPER */
+.enquiry-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+/* LEFT */
+.enquiry-tag {
+    font-size: 12px;
+    border: 1px solid var(--color-border);
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+    display: inline-block;
+}
+
+.enquiry-left h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+
+.enquiry-left h2 span {
+    color: var(--color-primary);
+}
+
+.enquiry-left p {
+    font-size: 15px;
+    color: var(--color-text-light);
+    margin-bottom: 20px;
+}
+
+/* CONTACT */
+.enquiry-contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.enquiry-contact small {
+    font-size: 12px;
+    color: var(--color-text-light);
+}
+
+.enquiry-contact p {
+    font-weight: 600;
+}
+
+/* CARD */
+.enquiry-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+}
+
+.enquiry-card h3 {
+    margin-bottom: 20px;
+}
+
+.enquiry-card span {
+    color: var(--color-primary);
+}
+
+/* FORM */
+.enquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* INPUT WITH ICON */
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 10px 14px;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    background: transparent;
+}
+
+.input-group textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* ROW */
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+/* BUTTON */
+.enquiry-form button {
+    margin-top: 10px;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    background: var(--color-primary);
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+    .enquiry-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .enquiry-left h2 {
+        font-size: 28px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}

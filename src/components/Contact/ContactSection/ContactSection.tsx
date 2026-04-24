@@ -1,7 +1,38 @@
+
+import { useState } from "react";
 import { Mail, MapPin, Phone, Send } from "lucide-react";
 import "./ContactSection.css";
 
 const ContactSection = () => {
+    const [form, setForm] = useState({
+        name: "",
+        phone: "",
+        email: "",
+        message: ""
+    });
+    const [error, setError] = useState("");
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        setForm({ ...form, [e.target.name]: e.target.value });
+        setError("");
+    };
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        // Basic validation
+        if (!form.name || !form.phone || !form.email || !form.message) {
+            setError("Please fill in all required fields.");
+            return;
+        }
+        // WhatsApp number (India format, no + or spaces)
+        const whatsappNumber = "8104859802";
+        const text = `Enquiry from JEH'S NEST website:%0AName: ${encodeURIComponent(form.name)}%0APhone: ${encodeURIComponent(form.phone)}%0AEmail: ${encodeURIComponent(form.email)}%0AMessage: ${encodeURIComponent(form.message)}`;
+        const url = `https://wa.me/${whatsappNumber}?text=${text}`;
+        window.open(url, "_blank");
+        // Optionally, reset form
+        setForm({ name: "", phone: "", email: "", message: "" });
+    };
+
     return (
         <section className="contact-section">
 
@@ -51,32 +82,55 @@ const ContactSection = () => {
 
                     <h3>Get in <span>Touch</span></h3>
 
-                    <form>
-
+                    <form onSubmit={handleSubmit} autoComplete="off">
                         <div className="form-group">
                             <label>Full Name*</label>
-                            <input type="text" placeholder="Your Full Name" />
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Your Full Name"
+                                value={form.name}
+                                onChange={handleChange}
+                                required
+                            />
                         </div>
-
                         <div className="form-group">
                             <label>Phone*</label>
-                            <input type="text" placeholder="Your Phone Number" />
+                            <input
+                                type="text"
+                                name="phone"
+                                placeholder="Your Phone Number"
+                                value={form.phone}
+                                onChange={handleChange}
+                                required
+                            />
                         </div>
-
                         <div className="form-group">
                             <label>Email*</label>
-                            <input type="email" placeholder="Your Email" />
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Your Email"
+                                value={form.email}
+                                onChange={handleChange}
+                                required
+                            />
                         </div>
-
                         <div className="form-group">
                             <label>Message*</label>
-                            <textarea rows={4} placeholder="Your Message"></textarea>
+                            <textarea
+                                rows={4}
+                                name="message"
+                                placeholder="Your Message"
+                                value={form.message}
+                                onChange={handleChange}
+                                required
+                            ></textarea>
                         </div>
-
-                        <button className="contact-btn">
+                        {error && <div style={{ color: "red", marginBottom: 8 }}>{error}</div>}
+                        <button className="contact-btn" type="submit">
                             Send Message <Send size={16} />
                         </button>
-
                     </form>
                 </div>
 

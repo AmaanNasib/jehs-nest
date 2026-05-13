@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import logo from "../../../assets/logo.png";
 
 const Footer: React.FC = () => {
     return (
@@ -12,7 +13,7 @@ const Footer: React.FC = () => {
                     data-aos-delay="200"
                 >
                     <div className="footer-logo">
-                        <img src="src/assets/logo.png" alt="Logo" className="logo-footer-img" />
+                        <img src={logo} alt="Logo" className="logo-footer-img" />
                     </div>
                 </div>
 

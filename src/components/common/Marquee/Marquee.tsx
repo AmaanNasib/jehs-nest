@@ -8,12 +8,10 @@ const Marquee: React.FC = () => {
 
                 {/* duplicate for infinite loop */}
                 <span className="marquee-text">
-                    Fresh Home-Style Tiffin Meals — Hygienic Daily Food — Corporate Catering — Jain Special Meals — Comfortable Dormitory Stay — Safe & Clean Rooms — Student & Working Professional Stay —
-                </span>
+                    Fresh Home-Style Meals • Hygienic Daily Food • Corporate Catering • Comfortable Dormitory Stay • Safe Living Spaces • 500+ Meals Daily • Premium Tiffin Service • Affordable Accommodation • FSSAI Certified Kitchen • Own Daily Delivery                </span>
 
                 <span className="marquee-text">
-                    Fresh Home-Style Tiffin Meals — Hygienic Daily Food — Corporate Catering — Jain Special Meals — Comfortable Dormitory Stay — Safe & Clean Rooms — Student & Working Professional Stay —
-                </span>
+                    Fresh Home-Style Meals • Hygienic Daily Food • Corporate Catering • Comfortable Dormitory Stay • Safe Living Spaces • 500+ Meals Daily • Premium Tiffin Service • Affordable Accommodation • FSSAI Certified Kitchen • Own Daily Delivery                </span>
 
             </div>
         </div>

@@ -4,12 +4,12 @@ import "./MenuSection.css";
 const menuItems = [
     {
         title: "Coconut Fish Curry",
-        desc: "A vibrant and aromatic dish with tender fish cooked in rich coconut gravy.",
+        desc: "Authentic coastal-style fish curry prepared with coconut and traditional spices.",
         img: "https://images.pexels.com/photos/35532828/pexels-photo-35532828.jpeg"
     },
     {
         title: "Delicious Biryani",
-        desc: "A fragrant rice dish layered with spices and perfectly cooked meat.",
+        desc: "Flavorful dum biryani made with aromatic spices and premium ingredients.",
         img: "https://images.pexels.com/photos/4439740/pexels-photo-4439740.jpeg"
     },
     {

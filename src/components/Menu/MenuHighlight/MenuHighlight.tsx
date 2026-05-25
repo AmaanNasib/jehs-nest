@@ -3,6 +3,7 @@ import "./MenuHighlight.css";
 const MenuHighlight = () => {
     return (
         <section className="menu-highlight">
+
             <div className="container">
 
                 <div className="menu-wrapper">
@@ -12,18 +13,44 @@ const MenuHighlight = () => {
                         className="menu-left"
                         data-aos="fade-right"
                     >
-                        <span className="menu-tag">Highlight</span>
+
+                        <span className="menu-tag">
+                            Jeh’s Kitchen
+                        </span>
 
                         <h2>
-                            Fresh & Homely <br />
-                            Meals Everyday
+                            Fresh, Hygienic &
+                            <br />
+                            Home-Style Meals
+                            <br />
+                            Served Daily
                         </h2>
 
                         <p>
-                            Enjoy simple, nutritious, and home-style meals
-                            prepared daily. From breakfast to dinner, we focus
-                            on taste, hygiene, and consistency for your comfort.
+                            Jeh’s Kitchen prepares nutritious and
+                            affordable meals using fresh ingredients,
+                            daily vegetables, and standardized cooking
+                            practices. Every meal is designed to bring
+                            comfort, taste, and consistency to your
+                            everyday routine.
                         </p>
+
+                        <div className="menu-points">
+
+                            <span>
+                                500+ Meals Daily
+                            </span>
+
+                            <span>
+                                Fresh Daily Preparation
+                            </span>
+
+                            <span>
+                                Hygienic Kitchen Standards
+                            </span>
+
+                        </div>
+
                     </div>
 
                     {/* CENTER BIG IMAGE */}
@@ -31,18 +58,38 @@ const MenuHighlight = () => {
                         className="menu-center"
                         data-aos="zoom-in"
                     >
-                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" />
+
+                        <img
+                            src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
+                            alt="Fresh healthy meal"
+                        />
+
                     </div>
 
                     {/* RIGHT STACKED IMAGES */}
                     <div className="menu-right">
 
-                        <div data-aos="fade-up">
-                            <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg" />
+                        <div
+                            data-aos="fade-up"
+                        >
+
+                            <img
+                                src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg"
+                                alt="Freshly prepared food"
+                            />
+
                         </div>
 
-                        <div data-aos="fade-up" data-aos-delay="120">
-                            <img src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg" />
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="120"
+                        >
+
+                            <img
+                                src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg"
+                                alt="Healthy kitchen meal"
+                            />
+
                         </div>
 
                     </div>
@@ -50,6 +97,7 @@ const MenuHighlight = () => {
                 </div>
 
             </div>
+
         </section>
     );
 };

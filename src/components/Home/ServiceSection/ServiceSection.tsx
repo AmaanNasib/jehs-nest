@@ -4,22 +4,22 @@ import "./ServiceSection.css";
 const services = [
     {
         title: "Tiffin Service",
-        desc: "Daily fresh home-style meals delivered with consistency, hygiene, and balanced nutrition.",
+        desc: "Fresh homely meals delivered daily with rotating menus, hygienic packaging, and affordable meal plans.",
         img: "https://images.pexels.com/photos/28939337/pexels-photo-28939337.jpeg"
     },
     {
         title: "Central Kitchen",
-        desc: "Fully managed kitchen operations ensuring quality cooking, bulk preparation, and timely delivery.",
+        desc: "850 sq ft modern kitchen infrastructure equipped with SS304-grade systems, quality control, and advanced ventilation.",
         img: "https://images.pexels.com/photos/18177444/pexels-photo-18177444.jpeg"
     },
     {
         title: "Men’s Dormitory",
-        desc: "Safe and affordable stay designed for working professionals and students with essential facilities.",
+        desc: "Comfortable and professionally managed living spaces designed for students and working professionals.",
         img: "https://images.pexels.com/photos/35531303/pexels-photo-35531303.jpeg"
     },
     {
         title: "Women’s Dormitory",
-        desc: "Secure and comfortable living spaces with proper hygiene, privacy, and daily support services.",
+        desc: "Safe and hygienic accommodation focused on comfort, privacy, and community living.",
         img: "https://images.pexels.com/photos/35165103/pexels-photo-35165103.jpeg"
     }
 ];
@@ -42,10 +42,9 @@ const ServiceSection: React.FC = () => {
                         data-aos-delay="100"
                     >
                         <p>
-                            From fresh daily meals to safe and comfortable dormitory stays,
-                            we manage everything so you don’t have to.
+                            From hygienic tiffin services to comfortable dormitories and large-scale catering, Jeh’s Nest delivers reliable hospitality solutions tailored for modern city living.
                         </p>
-                        <a href="#">Explore services</a>
+                        <a href="#">View All Services</a>
                     </div>
                 </div>
 

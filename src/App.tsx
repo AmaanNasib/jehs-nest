@@ -33,7 +33,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Footer />
 
     </>

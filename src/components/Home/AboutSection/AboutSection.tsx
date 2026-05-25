@@ -10,27 +10,27 @@ const AboutSection: React.FC = () => {
         mission: {
             title: "Our Mission",
             points: [
-                "Deliver fresh, hygienic meals daily through our managed kitchen",
-                "Provide safe, affordable dormitory stays for students & professionals",
-                "Maintain consistency in food quality, comfort, and service reliability"
+                "Fresh & hygienic meals prepared daily",
+                "Comfortable and affordable living spaces",
+                "Reliable service with customer-first support"
             ],
             img: "https://images.pexels.com/photos/7666429/pexels-photo-7666429.jpeg"
         },
         vision: {
             title: "Our Vision",
             points: [
-                "Build a trusted ecosystem for food and accommodation",
-                "Expand kitchen and dorm services across multiple locations",
-                "Become a dependable daily-life solution for urban living"
+                "Scale high-quality food operations",
+                "Build trusted community living spaces",
+                "Deliver consistent customer satisfaction"
             ],
             img: "https://placehold.co/150x120"
         },
         value: {
             title: "Our Value",
             points: [
-                "Hygiene-first kitchen and living standards",
-                "Customer comfort and safety as priority",
-                "Transparent pricing with consistent service quality"
+                "Hygiene & Safety First",
+                "Quality Ingredients Always",
+                "Comfort Through Consistency"
             ],
             img: "https://placehold.co/150x120"
         }
@@ -76,10 +76,7 @@ const AboutSection: React.FC = () => {
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
-                        We combine a professionally managed kitchen with safe and
-                        well-maintained dormitory spaces. From daily meals to
-                        comfortable living, everything is designed to simplify your
-                        routine with consistency, hygiene, and care.
+                        Jeh’s Nest is a complete hospitality and managed living solution offering hygienic tiffin services, large-scale catering, and comfortable dormitory accommodation for students and working professionals. We focus on quality, safety, affordability, and everyday comfort.
                     </p>
 
                     {/* Tabs */}
@@ -134,8 +131,7 @@ const AboutSection: React.FC = () => {
                         data-aos="fade-up"
                         data-aos-delay="400"
                     >
-                        Our focus is simple—reliable food, clean living spaces,
-                        and a system you can depend on every single day.
+                        Jeh’s Nest combines food, hospitality, and managed living into one dependable ecosystem built for modern urban lifestyles.
                     </p>
                 </div>
 

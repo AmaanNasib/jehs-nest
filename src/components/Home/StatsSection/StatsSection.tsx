@@ -15,27 +15,28 @@ const StatsSection: React.FC = () => {
                 <div className="stats-right">
 
                     <div className="stat-card">
-                        <span className="stat-label">TOTAL ROOMS</span>
+                        <span className="stat-label">Comfortable Dorm Beds</span>
                         <h2>
                             180 <span>+</span>
                         </h2>
-                        <p>comfortable dorm rooms</p>
+                        <p>Safe and hygienic managed accommodation</p>
                     </div>
 
                     <div className="stat-card">
-                        <span className="stat-label">YEARLY VISITORS</span>
+                        <span className="stat-label">Meals Delivered Monthly</span>
                         <h2>
                             8500 <span>+</span>
                         </h2>
-                        <p>happy residents & guests</p>
+                        <p>Fresh kitchen meals served consistently</p>
                     </div>
 
                     <div className="stat-card">
-                        <span className="stat-label">SIGNATURE MENU</span>
+                        <span className="stat-label">Corporate & Bulk Orders</span>
                         <h2>
                             65 <span>+</span>
                         </h2>
-                        <p>fresh tiffin dishes & meals</p>
+                        <p>Trusted catering and bulk food solutions</p>
+
                     </div>
 
                     <div className="stat-image-small">

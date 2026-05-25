@@ -3,23 +3,50 @@ import "./CtaBanner.css";
 const CtaBanner = () => {
     return (
         <section className="cta-banner">
+
             <div className="cta-overlay"></div>
 
             <div className="cta-content">
+
+                <span className="cta-tag">
+                    JEH’S NEST
+                </span>
+
                 <h2>
-                    Turn Your Vision Into A Space <br />
-                    You’ll Love Every Day
+                    Turn Your Everyday Living
+                    <br />
+                    Into A Comfortable Experience
                 </h2>
 
                 <p>
-                    Let Bathora bring your vision to life with expert design,
-                    premium materials, & flawless execution—tailored to your style & needs.
+                    Experience safe dormitory accommodation,
+                    fresh home-style meals, and reliable daily
+                    hospitality services designed for students
+                    and working professionals across Mumbai.
                 </p>
+
+                <div className="cta-highlights">
+
+                    <span>
+                        500+ Meals Daily
+                    </span>
+
+                    <span>
+                        Safe & Hygienic Stay
+                    </span>
+
+                    <span>
+                        Trusted By 300+ Customers
+                    </span>
+
+                </div>
 
                 <button className="cta-btn">
                     Book A Consultation →
                 </button>
+
             </div>
+
         </section>
     );
 };

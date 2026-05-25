@@ -36,10 +36,10 @@ const Header = () => {
                         <Link to="/contact">Contact</Link>
                     </nav>
 
-                    {/* CTA */}
-                    <div className="header-cta">
-                        <button>Book Now</button>
-                    </div>
+
+                    <Link to="/contact" className="header-cta">
+                        Book Now
+                    </Link>
 
                     {/* Mobile Toggle */}
                     <div className="menu-toggle" onClick={() => setMenuOpen(true)}>
@@ -65,7 +65,9 @@ const Header = () => {
                     <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
                 </nav>
 
-                <button className="mobile-cta">Book Now</button>
+                <Link to="/contact" className="mobile-cta">
+                    Book Now
+                </Link>
             </div>
 
             {menuOpen && <div className="menu-overlay" onClick={() => setMenuOpen(false)} />}

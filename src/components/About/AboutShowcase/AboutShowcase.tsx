@@ -1,71 +1,191 @@
 import React from "react";
-import { BedDouble, ShieldCheck, Utensils } from "lucide-react";
+import {
+    BedDouble,
+    ShieldCheck,
+    Utensils,
+    ArrowUpRight
+} from "lucide-react";
+
 import "./AboutShowcase.css";
 
 const AboutShowcase: React.FC = () => {
+
     return (
         <section className="about-section">
+
             <div className="container">
-                <div className="wrapper">
 
-                    {/* TEXT */}
-                    <div className="one" data-aos="fade-right">
-                        <span className="about-tag">About Us</span>
+                {/* TOP SECTION */}
+                <div className="top-section">
 
-                        <h2 data-aos="fade-up" data-aos-delay="100">
-                            Comfortable Dormitory <br />
-                            & Homely Food Solutions
+                    {/* LEFT IMAGE */}
+                    <div className="left-image">
+
+                        <img
+                            src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+                            alt="Dormitory room"
+                        />
+
+                    </div>
+
+                    {/* RIGHT CONTENT */}
+                    <div className="right-content">
+
+                        <span className="about-tag">
+                            About Jeh's Nest
+                        </span>
+
+                        <h2>
+                            Fresh Meals,
+                            <br />
+                            Comfortable Living
+                            <br />
+                            Under One Roof
                         </h2>
 
-                        <p data-aos="fade-up" data-aos-delay="200">
-                            We provide safe, clean, and affordable dormitory
-                            living along with fresh home-style meals. Designed
-                            for students and working professionals, our space
-                            focuses on comfort, hygiene, and peace of mind.
+                        <p>
+                            Jeh’s Nest combines safe dormitory accommodation
+                            with hygienic home-style food for students and
+                            working professionals. Our focus is to create
+                            a comfortable and community-driven living experience.
                         </p>
-                    </div>
 
-                    {/* BIG IMAGE */}
-                    <div className="two" data-aos="fade-left">
-                        <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg" />
-                    </div>
+                        <div className="stats-row">
 
-                    {/* SMALL IMAGE */}
-                    <div className="three" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" />
-                    </div>
+                            <div className="stat-card">
 
-                    {/* EXPERIENCE */}
-                    <div className="four" data-aos="fade-up" data-aos-delay="300">
-                        <h3>10+</h3>
-                        <span>Years of Experience</span>
+                                <h3>500+</h3>
+
+                                <span>
+                                    Meals Served Daily
+                                </span>
+
+                            </div>
+
+                            <div className="stat-card">
+
+                                <h3>300+</h3>
+
+                                <span>
+                                    Active Customers
+                                </span>
+
+                            </div>
+
+                        </div>
 
                         <button className="about-btn">
-                            Explore Rooms →
+
+                            Explore Rooms
+
+                            <ArrowUpRight size={18} />
+
                         </button>
-                    </div>
 
-                    {/* FEATURES */}
-                    <div className="five" data-aos="fade-up" data-aos-delay="400">
-                        <BedDouble className="icon" />
-                        <h4>Comfortable Living</h4>
-                        <p>Clean, ventilated rooms designed for daily comfort.</p>
-                    </div>
-
-                    <div className="six" data-aos="fade-up" data-aos-delay="500">
-                        <Utensils className="icon" />
-                        <h4>Healthy Meals</h4>
-                        <p>Fresh home-style food served daily with hygiene.</p>
-                    </div>
-
-                    <div className="seven" data-aos="fade-up" data-aos-delay="600">
-                        <ShieldCheck className="icon" />
-                        <h4>Safe & Secure</h4>
-                        <p>Separate spaces with proper safety and management.</p>
                     </div>
 
                 </div>
+
+                {/* BOTTOM GRID */}
+                <div className="bottom-grid">
+
+                    {/* CARD 1 */}
+                    <div className="feature-card">
+
+                        <div className="feature-icon">
+                            <BedDouble className="icon" />
+                        </div>
+
+                        <div className="feature-content">
+
+                            <h4>
+                                Comfortable Living
+                            </h4>
+
+                            <p>
+                                Spacious and clean rooms designed
+                                for peaceful and comfortable stays.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    {/* CARD 2 */}
+                    <div className="feature-card image-card">
+
+                        <img
+                            src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
+                            alt="Healthy food"
+                        />
+
+                    </div>
+
+                    {/* CARD 3 */}
+                    <div className="feature-card">
+
+                        <div className="feature-icon">
+                            <Utensils className="icon" />
+                        </div>
+
+                        <div className="feature-content">
+
+                            <h4>
+                                Healthy Meals
+                            </h4>
+
+                            <p>
+                                Freshly prepared meals with premium
+                                ingredients and strict hygiene standards.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    {/* CARD 4 */}
+                    <div className="feature-card dark-card">
+
+                        <span className="experience-tag">
+                            Experience
+                        </span>
+
+                        <h3>
+                            10+
+                        </h3>
+
+                        <p>
+                            Years of trusted hospitality and food service experience.
+                        </p>
+
+                    </div>
+
+                    {/* CARD 5 */}
+                    <div className="feature-card">
+
+                        <div className="feature-icon">
+                            <ShieldCheck className="icon" />
+                        </div>
+
+                        <div className="feature-content">
+
+                            <h4>
+                                Safe & Secure
+                            </h4>
+
+                            <p>
+                                Professionally managed spaces with
+                                strong safety and hygiene systems.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
+
         </section>
     );
 };

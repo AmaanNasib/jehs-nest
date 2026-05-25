@@ -1,188 +1,284 @@
 .about-section {
-    padding: 100px 0;
-    background: var(--color-bg);
+    padding: 120px 0;
+    background: #f8f5f0;
+    overflow: hidden;
 }
 
-/* IMPORTANT: REMOVE max-width from wrapper */
-.wrapper {
-    width: 100%;
+/* ================= TOP SECTION ================= */
+
+.top-section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+
+    margin-bottom: 40px;
 }
 
-
-.one {
-    grid-column: 1 / 3;
+.left-image {
+    height: 650px;
+    border-radius: 30px;
+    overflow: hidden;
 }
 
-.two {
-    grid-column: 3 / 5;
-    grid-row: 1 / 3;
+.left-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
-.three {
-    grid-column: 1;
-    grid-row: 2 / 5;
+.right-content {
+    padding-right: 40px;
 }
 
-.four {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-.five {
-    grid-column: 2;
-    grid-row: 3 / 5;
-}
-
-.six {
-    grid-column: 3;
-    grid-row: 3 / 5;
-}
-
-.seven {
-    grid-column: 4;
-    grid-row: 3 / 5;
-}
-
-/* TEXT */
 .about-tag {
+    display: inline-flex;
+
+    padding: 8px 16px;
+    border-radius: 100px;
+
+    background: rgba(149, 193, 31, 0.12);
+
     color: var(--color-primary);
+
     font-size: 13px;
     font-weight: 600;
+
+    margin-bottom: 22px;
 }
 
-.one h2 {
-    font-size: 44px;
-    line-height: 1.2;
-    margin: 12px 0;
-    color: var(--color-secondary);
+.right-content h2 {
+    font-size: 58px;
+    line-height: 1.08;
+
+    color: #6b3d09;
+
+    margin-bottom: 24px;
 }
 
-.one p {
+.right-content p {
     font-size: 15px;
-    color: var(--color-text-light);
-    line-height: 1.7;
-    max-width: 520px;
+    line-height: 1.9;
+
+    color: #777;
+
+    margin-bottom: 34px;
 }
 
-/* 🔥 FIXED IMAGE HEIGHTS (MAIN ISSUE) */
-.two img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-}
+/* ================= STATS ================= */
 
-.three img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 16px;
-}
-
-/* EXPERIENCE */
-.four {
+.stats-row {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    gap: 20px;
+
+    margin-bottom: 34px;
 }
 
-.four h3 {
-    font-size: 56px;
+.stat-card {
+    flex: 1;
+
+    background: #fff;
+
+    padding: 24px;
+    border-radius: 22px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.stat-card h3 {
+    font-size: 44px;
+    line-height: 1;
+
     color: var(--color-primary);
+
+    margin-bottom: 12px;
 }
 
-.four span {
+.stat-card span {
     font-size: 14px;
-    margin-bottom: 12px;
-    color: var(--color-text-light);
+    color: #777;
 }
 
 .about-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
     background: var(--color-primary);
-    color: #000;
-    padding: 12px 20px;
+    color: #111;
+
     border: none;
+    border-radius: 14px;
+
+    padding: 16px 28px;
+
+    font-size: 14px;
+    font-weight: 600;
+
     cursor: pointer;
 }
 
-/* CARDS */
-.five,
-.six,
-.seven {
-    background: #f3f0ec;
-    padding: 24px;
-    border-radius: 16px;
+/* ================= BOTTOM GRID ================= */
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+}
+
+.feature-card {
+    background: #fff;
+
+    border-radius: 24px;
+
+    padding: 30px;
+
+    min-height: 260px;
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
 
-    height: 100%;
-    /* 🔥 equal height */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.feature-icon {
+    width: 68px;
+    height: 68px;
+
+    border-radius: 18px;
+
+    background: rgba(149, 193, 31, 0.12);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon {
+    width: 32px;
+    height: 32px;
+
     color: var(--color-primary);
-    width: 28px;
-    height: 28px;
 }
 
-.five h4,
-.six h4,
-.seven h4 {
-    font-size: 18px;
+.feature-content h4 {
+    font-size: 24px;
+
+    color: #6b3d09;
+
+    margin-bottom: 10px;
 }
 
-.five p,
-.six p,
-.seven p {
+.feature-content p {
     font-size: 14px;
-    color: var(--color-text-light);
+    line-height: 1.9;
+
+    color: #777;
 }
 
-/* ================= RESPONSIVE ================= */
+/* ================= IMAGE CARD ================= */
 
-/* Tablet */
-@media (max-width: 992px) {
-    .wrapper {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .two img {
-        height: 300px;
-    }
-
-    .one h2 {
-        font-size: 32px;
-    }
-
-    /* reset layout */
-    .one,
-    .two,
-    .three,
-    .four,
-    .five,
-    .six,
-    .seven {
-        grid-column: auto;
-        grid-row: auto;
-    }
+.image-card {
+    padding: 0;
+    overflow: hidden;
 }
 
-/* Mobile */
-@media (max-width: 576px) {
-    .wrapper {
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ================= DARK CARD ================= */
+
+.dark-card {
+    background: #1c1c1c;
+    color: #fff;
+}
+
+.experience-tag {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+
+    text-transform: uppercase;
+}
+
+.dark-card h3 {
+    font-size: 72px;
+    line-height: 1;
+
+    color: var(--color-primary);
+}
+
+.dark-card p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+}
+
+/* ================= TABLET ================= */
+
+@media(max-width: 1100px) {
+
+    .top-section {
         grid-template-columns: 1fr;
     }
 
-    .two img {
-        height: 240px;
+    .left-image {
+        height: 420px;
     }
 
-    .one h2 {
-        font-size: 26px;
+    .right-content {
+        padding-right: 0;
     }
+
+    .right-content h2 {
+        font-size: 44px;
+    }
+
+    .bottom-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width: 768px) {
+
+    .about-section {
+        padding: 80px 0;
+    }
+
+    .left-image {
+        height: 280px;
+    }
+
+    .right-content h2 {
+        font-size: 34px;
+    }
+
+    .right-content p {
+        font-size: 14px;
+    }
+
+    .stats-row {
+        flex-direction: column;
+    }
+
+    .bottom-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-card {
+        min-height: auto;
+        padding: 24px;
+    }
+
+    .dark-card h3 {
+        font-size: 52px;
+    }
+
 }

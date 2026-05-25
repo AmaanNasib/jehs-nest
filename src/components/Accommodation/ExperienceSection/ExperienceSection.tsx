@@ -14,7 +14,12 @@ const ExperienceSection = () => {
                     className="exp-image-card"
                     data-aos="fade-right"
                 >
-                    <img src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg" />
+
+                    <img
+                        src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg"
+                        alt="Jeh's Nest accommodation"
+                    />
+
                 </div>
 
                 {/* RIGHT CONTENT */}
@@ -22,23 +27,28 @@ const ExperienceSection = () => {
                     className="exp-content"
                     data-aos="fade-left"
                 >
-                    <span className="exp-tag">Our Experience</span>
+
+                    <span className="exp-tag">
+                        Jeh’s Nest Experience
+                    </span>
 
                     <h2>
-                        Our Years of Experience <br />
-                        Will Serve <span>the Best</span>
+                        Comfortable Living
+                        <br />
+                        Designed For <span>Modern Daily Life</span>
                     </h2>
 
                     <p className="exp-sub">
-                        We have 10+ years of experience providing safe,
-                        comfortable dormitory living for students and professionals.
+                        Safe accommodation, hygienic meals, and reliable
+                        hospitality services for students and working professionals.
                     </p>
 
                     <p className="exp-desc">
-                        With years of experience in managing shared accommodations,
-                        Jeh’s Nest ensures a clean, secure, and well-managed
-                        environment. From daily meals to maintenance, everything is
-                        handled to give you a stress-free stay.
+                        Jeh’s Nest combines managed dormitory living with
+                        fresh home-style food and dependable daily support.
+                        From room maintenance to food delivery, everything
+                        is handled with a focus on comfort, hygiene,
+                        affordability, and operational consistency.
                     </p>
 
                     <button className="exp-btn">
@@ -47,22 +57,49 @@ const ExperienceSection = () => {
 
                     {/* STATS */}
                     <div className="exp-stats">
+
                         <div>
-                            <h3>500+</h3>
-                            <span>Happy Residents</span>
+
+                            <h3>
+                                500+
+                            </h3>
+
+                            <span>
+                                Meals Served Daily
+                            </span>
+
                         </div>
+
                         <div>
-                            <h3>50+</h3>
-                            <span>Rooms Available</span>
+
+                            <h3>
+                                300+
+                            </h3>
+
+                            <span>
+                                Active Customers
+                            </span>
+
                         </div>
+
                         <div>
-                            <h3>10+</h3>
-                            <span>Years Experience</span>
+
+                            <h3>
+                                10+
+                            </h3>
+
+                            <span>
+                                Years Of Experience
+                            </span>
+
                         </div>
+
                     </div>
+
                 </div>
 
             </div>
+
         </section>
     );
 };

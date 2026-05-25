@@ -186,6 +186,8 @@
     padding: 12px;
     border: none;
     font-size: 14px;
+    text-align: center;
+    color: #fff !important;
 }
 
 /* OVERLAY */
@@ -194,4 +196,10 @@
     inset: 0;
     background: rgba(0, 0, 0, 0.4);
     z-index: 1500;
+}
+
+a.header-cta {
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
 }

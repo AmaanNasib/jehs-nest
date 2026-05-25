@@ -13,38 +13,38 @@ const slides = [
     {
         title: (
             <>
-                <span className="green">DELICIOUS</span>{" "}
-                <span className="pill">DISHES</span>
+                <span className="green">Fresh</span>{" "}
+                <span className="pill">Kitchen</span>
                 <br />
-                <span className="white">TO</span>{" "}
-                <span className="green">ENRICH</span>{" "}
-                <span className="white">YOUR</span>
+                <span className="white">Meals</span>{" "}
+                <span className="green">Delivered</span>{" "}
+                <span className="white">Daily</span>
                 <br />
-                <span className="white">WISHES</span>
+                <span className="white">With Care</span>
             </>
         ),
         desc:
-            "Fresh home-style tiffin delivered daily. Healthy, hygienic, and made with care for your everyday needs.",
+            "Jeh’s Kitchen serves freshly prepared homely meals for students, working professionals, and corporate clients with premium ingredients, hygienic preparation, and reliable daily delivery.",
         img: "https://t3.ftcdn.net/jpg/10/08/49/26/240_F_1008492614_RwP6CFpiUnxXBC4MK6C5kHaXWtLQTh99.jpg",
-        btn1: "Contact us",
-        btn2: "Check details"
+        btn1: "Order Tiffin",
+        btn2: "Explore Menu"
     },
     {
         title: (
             <>
-                <span className="green">COMFORTABLE</span>{" "}
-                <span className="pill">STAYS</span>
+                <span className="green">Comfortable</span>{" "}
+                <span className="pill">Stays</span>
                 <br />
-                <span className="white">FOR</span>{" "}
-                <span className="green">STUDENTS</span>{" "}
-                <span className="white">& WORKERS</span>
+                <span className="white">For</span>{" "}
+                <span className="green">Students</span>{" "}
+                <span className="white">& Working Professionals</span>
             </>
         ),
         desc:
-            "Affordable dormitory with clean rooms, safe environment and all daily essentials included.",
+            "Jeh’s Nest offers secure and thoughtfully managed dormitory spaces designed for comfort, hygiene, and community living with daily meal support.",
         img: "https://t4.ftcdn.net/jpg/09/84/28/25/240_F_984282595_RxmvqKMzQQqlbFXIbQnywaBmbz7Rq5Hr.jpg",
-        btn1: "Book now",
-        btn2: "Explore rooms"
+        btn1: "Book Your Stay",
+        btn2: "Explore Rooms"
     }
 ];
 

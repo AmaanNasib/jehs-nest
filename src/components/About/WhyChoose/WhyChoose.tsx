@@ -1,80 +1,148 @@
-import { BadgeCheck, Clock, Layers, Lightbulb, Users } from "lucide-react";
+import {
+    BadgeCheck,
+    Clock,
+    Layers,
+    Lightbulb,
+    Users
+} from "lucide-react";
+
 import "./WhyChoose.css";
 
 const features = [
     {
         icon: <Layers />,
         title: "Comfortable Living Spaces",
-        desc: "Well-maintained dorm rooms designed for daily comfort and convenience."
+        desc: "Spacious and well-maintained dormitory rooms designed for peaceful and comfortable everyday living."
     },
     {
         icon: <Users />,
         title: "Professional Management",
-        desc: "Dedicated team ensuring smooth operations and resident support."
+        desc: "Dedicated support and operations team ensuring smooth accommodation management and resident satisfaction."
     },
     {
         icon: <Lightbulb />,
         title: "Smart Living Solutions",
-        desc: "Everything you need—from stay to meals—under one roof."
+        desc: "Integrated stay and meal services designed to simplify daily life for students and working professionals."
     },
     {
         icon: <BadgeCheck />,
         title: "Transparent Pricing",
-        desc: "Simple, clear pricing with no hidden charges."
+        desc: "Affordable accommodation and food plans with clear pricing and no hidden charges."
     },
     {
         icon: <Clock />,
         title: "Daily Reliable Service",
-        desc: "Consistent food, cleaning, and maintenance every day."
+        desc: "Consistent food delivery, hygiene maintenance, cleaning support, and operational assistance every day."
     }
 ];
 
 const WhyChoose = () => {
     return (
         <section className="why-section">
+
             <div className="container why-wrapper">
 
                 {/* LEFT */}
-                <div className="why-left" data-aos="fade-right">
+                <div
+                    className="why-left"
+                    data-aos="fade-right"
+                >
 
-                    <span className="why-tag">Why Choose Us</span>
+                    <span className="why-tag">
+                        Why Choose Us
+                    </span>
 
-                    <h2 data-aos="fade-up" data-aos-delay="100">
-                        Trusted Choice For <br />
+                    <h2
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        Trusted Choice For
+                        <br />
                         Dormitory & Daily Living
                     </h2>
 
-                    <p data-aos="fade-up" data-aos-delay="200">
-                        We provide safe accommodation and homely meals designed
-                        for students and working professionals. Our focus is on
-                        comfort, hygiene, and consistency.
+                    <p
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                    >
+                        Jeh’s Nest provides safe accommodation,
+                        hygienic meals, and reliable hospitality
+                        services designed for students and working
+                        professionals seeking comfort and convenience.
                     </p>
 
                     {/* STATS */}
                     <div className="why-stats">
-                        <div data-aos="fade-up" data-aos-delay="300">
-                            <h3>500+</h3>
-                            <span>Happy Residents</span>
+
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                        >
+
+                            <h3>
+                                500+
+                            </h3>
+
+                            <span>
+                                Happy Residents
+                            </span>
+
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="400">
-                            <h3>50+</h3>
-                            <span>Rooms Available</span>
+
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="400"
+                        >
+
+                            <h3>
+                                50+
+                            </h3>
+
+                            <span>
+                                Rooms Available
+                            </span>
+
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="500">
-                            <h3>95%</h3>
-                            <span>Retention Rate</span>
+
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="500"
+                        >
+
+                            <h3>
+                                95%
+                            </h3>
+
+                            <span>
+                                Retention Rate
+                            </span>
+
                         </div>
+
                     </div>
 
                     {/* IMAGE */}
-                    <div className="why-image" data-aos="zoom-in" data-aos-delay="600">
-                        <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg" />
+                    <div
+                        className="why-image"
+                        data-aos="zoom-in"
+                        data-aos-delay="600"
+                    >
+
+                        <img
+                            src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+                            alt="Comfortable dormitory room"
+                        />
+
                     </div>
 
                 </div>
 
                 {/* RIGHT */}
-                <div className="why-right" data-aos="fade-left">
+                <div
+                    className="why-right"
+                    data-aos="fade-left"
+                >
+
                     <div className="why-card">
 
                         {features.map((item, i) => (
@@ -84,19 +152,32 @@ const WhyChoose = () => {
                                 data-aos="fade-up"
                                 data-aos-delay={i * 120}
                             >
-                                <div className="why-icon">{item.icon}</div>
 
-                                <div>
-                                    <h4>{item.title}</h4>
-                                    <p>{item.desc}</p>
+                                <div className="why-icon">
+                                    {item.icon}
                                 </div>
+
+                                <div className="why-content">
+
+                                    <h4>
+                                        {item.title}
+                                    </h4>
+
+                                    <p>
+                                        {item.desc}
+                                    </p>
+
+                                </div>
+
                             </div>
                         ))}
 
                     </div>
+
                 </div>
 
             </div>
+
         </section>
     );
 };

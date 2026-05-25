@@ -4,6 +4,7 @@ import "./AboutLuxury.css";
 const AboutLuxury = () => {
     return (
         <section className="about-lux">
+
             <div className="container about-lux-wrapper">
 
                 {/* LEFT */}
@@ -11,41 +12,64 @@ const AboutLuxury = () => {
                     className="about-lux-left"
                     data-aos="fade-right"
                 >
-                    <span className="about-badge">ABOUT US</span>
+
+                    <span className="about-badge">
+                        JEH’S NEST
+                    </span>
 
                     <h2>
-                        Comfortable <span>dorm living</span> enhanced by
-                        <br /> daily convenience
+                        Comfortable <span>managed living</span>
+                        <br />
+                        with fresh meals &
+                        <br />
+                        everyday convenience
                     </h2>
 
                     <p className="desc">
-                        Experience safe and comfortable dormitory living at Jeh’s Nest.
-                        Designed for students and working professionals, we offer
-                        clean rooms, structured living, and a peaceful environment.
+                        Jeh’s Nest offers safe and professionally managed
+                        dormitory accommodation designed for students,
+                        working professionals, and individuals looking
+                        for a peaceful and comfortable stay in Mumbai.
                     </p>
 
                     <p className="desc small">
-                        Enjoy fresh home-style meals, reliable services, and a
-                        location close to transport and essentials. We focus on
-                        comfort, hygiene, and a stress-free stay every day.
+                        From hygienic home-style meals to reliable daily
+                        services, we focus on creating a stress-free living
+                        experience with comfort, safety, and convenience
+                        at the center of everything we do.
                     </p>
 
                     {/* CTA */}
                     <div className="about-actions">
 
                         <button className="primary-btn">
-                            Explore Rooms <ArrowUpRight size={16} />
+
+                            Explore Rooms
+
+                            <ArrowUpRight size={16} />
+
                         </button>
 
                         <div className="contact">
+
                             <PhoneCall size={18} />
+
                             <div>
-                                <span>Call us for Inquiry:</span>
-                                <strong>+91 98929 39585</strong>
+
+                                <span>
+                                    Call us for Inquiry:
+                                </span>
+
+                                <strong>
+                                    +91 98929 39585
+                                </strong>
+
                             </div>
+
                         </div>
 
                     </div>
+
                 </div>
 
                 {/* RIGHT */}
@@ -56,23 +80,31 @@ const AboutLuxury = () => {
 
                     <img
                         src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
-                        alt="dorm"
+                        alt="Jeh's Nest dormitory room"
                     />
 
                     {/* TOP BADGE */}
                     <div className="lux-badge">
-                        <span>Safe • Comfortable • Reliable</span>
+
+                        <span>
+                            Safe • Hygienic • Comfortable
+                        </span>
+
                     </div>
 
                     {/* BOTTOM OVERLAY */}
                     <div className="lux-overlay">
-                        A well-managed dorm experience designed for
-                        daily comfort and peaceful living.
+
+                        Professionally managed accommodation
+                        designed for peaceful living, comfort,
+                        and reliable daily convenience.
+
                     </div>
 
                 </div>
 
             </div>
+
         </section>
     );
 };

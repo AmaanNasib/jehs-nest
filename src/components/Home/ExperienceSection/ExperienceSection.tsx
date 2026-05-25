@@ -26,10 +26,8 @@ const ExperienceSection: React.FC = () => {
                         data-aos-delay="100"
                     >
                         <p>
-                            From preparation to delivery, every step is handled with care,
-                            hygiene, and consistency to give you reliable daily meals.
-                        </p>
-                        <a href="#">Explore meal plans</a>
+                            Every meal at Jeh’s Kitchen follows a carefully managed process to ensure freshness, hygiene, consistency, and timely delivery.                        </p>
+                        <a href="#">Start Your Meal Plan</a>
                     </div>
                 </div>
 
@@ -81,9 +79,7 @@ const ExperienceSection: React.FC = () => {
                             data-aos="fade-up"
                             data-aos-delay="100"
                         >
-                            Our kitchen prepares fresh meals daily using quality ingredients
-                            and consistent processes. Every tiffin is designed to give you
-                            balanced nutrition, taste, and reliability—without the hassle of cooking.
+                            Jeh’s Kitchen uses fresh vegetables, premium ingredients, standardized SOPs, and strict hygiene protocols to deliver healthy and consistent meals every day.
                         </p>
 
                         <div
@@ -95,11 +91,10 @@ const ExperienceSection: React.FC = () => {
 
                             <div className="exp-testimonial-text">
                                 <p>
-                                    We focus on delivering food that feels like home—simple,
-                                    fresh, and consistent every single day.
+                                    Fresh food, timely delivery, and homely taste  Jeh’s Kitchen has become part of my daily routine.
                                 </p>
                                 <h5>
-                                    Kitchen Team <span>Food Operations</span>
+                                    Neha Sharma <span>Working Professional</span>
                                 </h5>
                             </div>
                         </div>

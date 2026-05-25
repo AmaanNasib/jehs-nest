@@ -14,8 +14,7 @@ const DormSection: React.FC = () => {
                         <BedDouble className="icon" />
                         <h4>Comfortable Rooms</h4>
                         <p>
-                            Clean and well-maintained rooms designed for
-                            daily comfort and peaceful living.
+                            Clean, spacious, and well-maintained shared living spaces designed for everyday convenience.
                         </p>
                     </div>
 
@@ -31,8 +30,7 @@ const DormSection: React.FC = () => {
                         <ShieldCheck className="icon" />
                         <h4>Safe & Secure</h4>
                         <p>
-                            Separate dorms for men & women with proper
-                            security, hygiene, and daily support.
+                            Professionally managed dormitories with safety-focused infrastructure and reliable support systems.
                         </p>
                     </div>
 
@@ -41,7 +39,7 @@ const DormSection: React.FC = () => {
                 {/* RIGHT */}
                 <div className="dorm-right">
 
-                    <span>DORMITORY FACILITIES</span>
+                    <span>SAFE LIVING SPACES</span>
 
                     <h2>
                         Safe, Clean & Comfortable <br />
@@ -49,10 +47,7 @@ const DormSection: React.FC = () => {
                     </h2>
 
                     <p>
-                        Designed for students and working professionals,
-                        our dormitory offers a reliable stay with hygiene,
-                        safety, and comfort at its core. Simple living,
-                        managed properly.
+                        Jeh’s Nest provides thoughtfully designed accommodation with modern amenities, hygienic maintenance, and a community-focused environment for students and professionals.
                     </p>
 
                     <button className="dorm-btn">

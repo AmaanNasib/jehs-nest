@@ -9,7 +9,6 @@ import Home from './pages/Home'
 import About from './pages/About'
 import TopHeader from './components/common/TopHeader/TopHeader'
 import Header from './components/common/Header/Header'
-import Newsletter from './components/common/Newsletter/Newsletter'
 import Footer from './components/common/Footer/Footer'
 import Gallery from './pages/Gallery';
 import Accommodation from './pages/Accommodation';

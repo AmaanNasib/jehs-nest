@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
                 >
                     <h4>My Account</h4>
                     <a href="#">Teams & Conditions</a>
-                    <a href="#">Contact us</a>
+                    <a href="/contact">Contact us</a>
                 </div>
                 <div
                     className="footer-col"
@@ -53,10 +53,8 @@ const Footer: React.FC = () => {
 
             </div>
 
-            {/* Bottom */}
             <div
                 className="footer-bottom"
-                // data-aos="fade-up"
                 data-aos-delay="400"
             >
                 <div className="container footer-bottom-container">

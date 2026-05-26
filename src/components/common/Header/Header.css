@@ -199,7 +199,8 @@
 }
 
 a.header-cta {
-    background: white;
+    background: var(--color-primary);
     padding: 10px 20px;
+    color: white;
     border-radius: 5px;
 }

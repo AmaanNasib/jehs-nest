@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 520px;
 
-    background-image: url("src/assets/images/IMG_2019_.jpg");
+    background-image: url("/IMG_2019_.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

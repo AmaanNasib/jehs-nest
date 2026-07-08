@@ -1,9 +1,8 @@
 import React, { useRef } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 // @ts-ignore
 import slideImage from "../../../assets/images/5DGT2003_.jpg";
-import slideImagetwo from "../../../assets/images/5DGT2003_.jpg";
 // @ts-ignore
 import "swiper/css";
 // @ts-ignore

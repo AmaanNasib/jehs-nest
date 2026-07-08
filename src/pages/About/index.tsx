@@ -1,6 +1,5 @@
 import AboutShowcase from "../../components/About/AboutShowcase/AboutShowcase"
 import CtaBanner from "../../components/About/CtaBanner/CtaBanner"
-import TeamSection from "../../components/About/TeamSection/TeamSection"
 import WhyChoose from "../../components/About/WhyChoose/WhyChoose"
 import Breadcrumb from "../../components/common/Breadcrumb/Breadcrumb"
 

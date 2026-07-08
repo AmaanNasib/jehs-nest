@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import owner from "../../../assets/owner.jpeg";
 import "./AboutSection.css";
 
 type TabType = "mission" | "vision" | "value";

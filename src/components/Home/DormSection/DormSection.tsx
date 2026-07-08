@@ -19,11 +19,11 @@ const DormSection: React.FC = () => {
                     </div>
 
                     <div className="dorm-img">
-                        <img src="https://images.pexels.com/photos/35165103/pexels-photo-35165103.jpeg" />
+                        <img src="src/assets/images/DSC08619-copy-768x1152.jpg" />
                     </div>
 
                     <div className="dorm-img">
-                        <img src="https://images.pexels.com/photos/7969104/pexels-photo-7969104.jpeg" />
+                        <img src="src/assets/images/DSC08264-copy-768x1152.jpg" />
                     </div>
 
                     <div className="dorm-card">

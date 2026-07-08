@@ -3,34 +3,34 @@ import "./MenuSection.css";
 
 const menuItems = [
     {
-        title: "Coconut Fish Curry",
-        desc: "Authentic coastal-style fish curry prepared with coconut and traditional spices.",
-        img: "https://images.pexels.com/photos/35532828/pexels-photo-35532828.jpeg"
+        title: "Veg Thali",
+        desc: "A wholesome vegetarian thali featuring fresh chapati, rice, seasonal vegetables, curry, papad, and salad for a complete meal.",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.37 PM.jpeg"
     },
     {
-        title: "Delicious Biryani",
-        desc: "Flavorful dum biryani made with aromatic spices and premium ingredients.",
-        img: "https://images.pexels.com/photos/4439740/pexels-photo-4439740.jpeg"
+        title: "Dal",
+        desc: "Traditional slow-cooked dal prepared with aromatic spices, offering a rich and comforting homemade flavor.",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (1)_.jpg"
     },
     {
-        title: "Classic Butter Chicken",
-        desc: "Creamy tomato-based curry with soft, juicy chicken pieces.",
-        img: "https://images.pexels.com/photos/35158690/pexels-photo-35158690.jpeg"
+        title: "Laddu",
+        desc: "Soft, delicious handcrafted laddus made with premium ingredients, perfect for every celebration and festive occasion.",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (2).jpeg"
     },
     {
-        title: "Full Dish Tiffin",
-        desc: "A complete meal with variety, perfect for daily balanced nutrition.",
-        img: "https://images.pexels.com/photos/25020308/pexels-photo-25020308.jpeg"
+        title: "Veg Platter",
+        desc: "A delightful platter featuring a variety of flavorful vegetarian dishes, rice, curry, and accompaniments in one satisfying meal.",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg"
     },
     {
-        title: "Southwest Salad",
-        desc: "Fresh and colorful salad packed with bold and healthy flavors.",
-        img: "https://images.pexels.com/photos/34366570/pexels-photo-34366570.jpeg"
+        title: "Sweet Dish (Halwa)",
+        desc: "Rich and flavorful halwa made with premium ingredients, garnished with dry fruits for a delicious traditional dessert.",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.39 PM.jpeg"
     },
     {
-        title: "Savory Pasta",
-        desc: "Comforting pasta with rich sauce and perfectly cooked texture.",
-        img: "https://images.pexels.com/photos/262940/pexels-photo-262940.jpeg"
+        title: "Fresh Salad",
+        desc: "A refreshing salad prepared with crisp vegetables and fresh ingredients, making the perfect healthy accompaniment.",
+        img: "src/assets/images/IMG_1937.JPG"
     }
 ];
 

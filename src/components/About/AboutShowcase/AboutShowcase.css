@@ -8,7 +8,7 @@
 
 .top-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 40px;
     align-items: center;
 
@@ -28,9 +28,9 @@
     display: block;
 }
 
-.right-content {
+/* .right-content {
     padding-right: 40px;
-}
+} */
 
 .about-tag {
     display: inline-flex;
@@ -49,7 +49,7 @@
 }
 
 .right-content h2 {
-    font-size: 58px;
+    font-size: 38px;
     line-height: 1.08;
 
     color: #6b3d09;
@@ -160,7 +160,7 @@
 .icon {
     width: 32px;
     height: 32px;
-
+    margin: 0px;
     color: var(--color-primary);
 }
 

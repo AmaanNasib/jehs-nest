@@ -8,7 +8,7 @@ const StatsSection: React.FC = () => {
 
                 {/* LEFT BIG IMAGE */}
                 <div className="stats-image">
-                    <img src="https://images.pexels.com/photos/35531303/pexels-photo-35531303.jpeg" alt="dorm" />
+                    <img src="src/assets/images/DSC08406-copy-768x512.jpg" alt="dorm" />
                 </div>
 
                 {/* RIGHT GRID */}
@@ -40,7 +40,7 @@ const StatsSection: React.FC = () => {
                     </div>
 
                     <div className="stat-image-small">
-                        <img src="https://images.pexels.com/photos/33996079/pexels-photo-33996079.jpeg" alt="user" />
+                        <img src="src/assets/images/Jehs-Nest-Luxury-AC-Dormitory-Picture-of-the-business-which-shows-clear-signage--768x741.jpg" alt="user" />
                     </div>
 
                 </div>

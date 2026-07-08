@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
                 "Comfortable and affordable living spaces",
                 "Reliable service with customer-first support"
             ],
-            img: "https://images.pexels.com/photos/7666429/pexels-photo-7666429.jpeg"
+            img: "src/assets/images/5DGT2585.JPG"
         },
         vision: {
             title: "Our Vision",
@@ -24,7 +24,7 @@ const AboutSection: React.FC = () => {
                 "Build trusted community living spaces",
                 "Deliver consistent customer satisfaction"
             ],
-            img: "https://placehold.co/150x120"
+            img: "src/assets/images/IMG_1813_.jpg"
         },
         value: {
             title: "Our Value",
@@ -33,7 +33,7 @@ const AboutSection: React.FC = () => {
                 "Quality Ingredients Always",
                 "Comfort Through Consistency"
             ],
-            img: "https://placehold.co/150x120"
+            img: "src/assets/images/5DGT2519_.jpg"
         }
     };
 
@@ -50,7 +50,7 @@ const AboutSection: React.FC = () => {
                 >
                     <div className="image-main">
                         <img
-                            src="https://jehsnest.com/wp-content/uploads/2023/11/DSC08406-copy-768x512.jpg"
+                            src="src/assets/images/5DGT2672.jpg"
                             alt="kitchen and dorm"
                         />
                     </div>
@@ -59,8 +59,9 @@ const AboutSection: React.FC = () => {
                         className="image-overlay"
                         data-aos="zoom-in"
                         data-aos-delay="200"
+                        style={{ width: "220px" }}
                     >
-                        <img src={owner} alt="owner" />
+                        <img src="src/assets/images/5DGT2504.JPG" alt="owner" width={200} />
                     </div>
                 </div>
 

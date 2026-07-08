@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
-
+// @ts-ignore
+import slideImage from "../../../assets/images/5DGT2003_.jpg";
+import slideImagetwo from "../../../assets/images/5DGT2003_.jpg";
 // @ts-ignore
 import "swiper/css";
 // @ts-ignore
@@ -25,7 +27,7 @@ const slides = [
         ),
         desc:
             "Jeh’s Kitchen serves freshly prepared homely meals for students, working professionals, and corporate clients with premium ingredients, hygienic preparation, and reliable daily delivery.",
-        img: "https://t3.ftcdn.net/jpg/10/08/49/26/240_F_1008492614_RwP6CFpiUnxXBC4MK6C5kHaXWtLQTh99.jpg",
+        img: slideImage,
         btn1: "Order Tiffin",
         btn2: "Explore Menu"
     },
@@ -42,7 +44,7 @@ const slides = [
         ),
         desc:
             "Jeh’s Nest offers secure and thoughtfully managed dormitory spaces designed for comfort, hygiene, and community living with daily meal support.",
-        img: "https://t4.ftcdn.net/jpg/09/84/28/25/240_F_984282595_RxmvqKMzQQqlbFXIbQnywaBmbz7Rq5Hr.jpg",
+        img: "src/assets/images/DSC08603-copy-768x512.jpg",
         btn1: "Book Your Stay",
         btn2: "Explore Rooms"
     }

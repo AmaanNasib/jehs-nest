@@ -2,49 +2,48 @@ import "./FoodMenuSection.css";
 
 const dishes = [
     {
-        name: "Jeh’s Premium",
-        desc: "Dal fry / tadka + seasonal vegetable + phulka + rice + salad / papad",
-        priceSmall: "₹120",
-        priceLarge: "Lunch & Dinner",
-        img: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
+        name: "Veg Thali",
+        desc: "A complete vegetarian meal with dal, seasonal vegetables, chapati, rice, papad, and fresh salad.",
+        priceSmall: "Lunch",
+        priceLarge: "Dinner",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.37 PM.jpeg"
     },
     {
-        name: "Jeh’s Premium Special",
-        desc: "Veg / Non-veg special dish + bhakri / phulka + rice + salad + sweet",
-        priceSmall: "₹160",
-        priceLarge: "Wednesday & Friday",
-        img: "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg"
+        name: "Dal",
+        desc: "Traditional homemade dal cooked with aromatic spices, perfect with rice or roti.",
+        priceSmall: "Fresh",
+        priceLarge: "Daily",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (1)_.jpg"
     },
     {
-        name: "Daily Fresh Meals",
-        desc: "Freshly prepared meals served hot with balanced nutrition and hygiene",
-        priceSmall: "Fresh & Hot",
-        priceLarge: "Daily Service",
-        img: "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg"
+        name: "Laddu",
+        desc: "Soft and delicious traditional laddus made using premium ingredients for every occasion.",
+        priceSmall: "Fresh",
+        priceLarge: "Sweet",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (2).jpeg"
     },
     {
-        name: "Affordable Meal Plans",
-        desc: "Budget-friendly meal subscriptions for students and working professionals",
-        priceSmall: "Monthly Plans",
-        priceLarge: "Custom Packages",
-        img: "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg"
+        name: "Veg Platter",
+        desc: "A delightful assortment of vegetarian dishes served with rice, curry, salad, and accompaniments.",
+        priceSmall: "Special",
+        priceLarge: "Meal",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg"
     },
     {
-        name: "Catering & Party Orders",
-        desc: "Bulk food preparation and catering solutions for events and gatherings",
-        priceSmall: "600+ Capacity",
-        priceLarge: "Bulk Orders",
-        img: "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg"
+        name: "Halwa",
+        desc: "Rich and flavorful traditional halwa garnished with premium dry fruits for a perfect dessert.",
+        priceSmall: "Dessert",
+        priceLarge: "Fresh",
+        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.39 PM.jpeg"
     },
     {
-        name: "Home-Style Tiffin",
-        desc: "Comfort food prepared with authentic homemade taste and quality ingredients",
-        priceSmall: "Daily Delivery",
-        priceLarge: "Own Delivery",
-        img: "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg"
+        name: "Fresh Salad",
+        desc: "A healthy mix of fresh vegetables served as a refreshing accompaniment to every meal.",
+        priceSmall: "Healthy",
+        priceLarge: "Fresh",
+        img: "src/assets/images/IMG_1937.JPG"
     }
 ];
-
 const FoodMenuSection = () => {
     return (
         <section className="food-menu-section">

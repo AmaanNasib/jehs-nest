@@ -22,7 +22,7 @@ const AboutShowcase: React.FC = () => {
                     <div className="left-image">
 
                         <img
-                            src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+                            src="src/assets/images/IMG_2016_.jpg"
                             alt="Dormitory room"
                         />
 
@@ -115,7 +115,7 @@ const AboutShowcase: React.FC = () => {
                     <div className="feature-card image-card">
 
                         <img
-                            src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
+                            src="src/assets/images/5DGT2186_.jpg"
                             alt="Healthy food"
                         />
 

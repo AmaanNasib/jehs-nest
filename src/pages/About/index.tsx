@@ -9,7 +9,7 @@ const About = () => {
         <>
             <Breadcrumb
                 title="About Us"
-                bgImage="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
+                bgImage="src/assets/images/IMG_1891.JPG"
                 items={[
                     { label: "Home", href: "/" },
                     { label: "About Us" }
@@ -18,7 +18,7 @@ const About = () => {
             <AboutShowcase />
             <WhyChoose />
             <CtaBanner />
-            <TeamSection />
+            {/* <TeamSection /> */}
         </>
     )
 }

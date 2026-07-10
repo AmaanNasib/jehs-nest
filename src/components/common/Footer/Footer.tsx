@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
     return (
@@ -23,11 +24,11 @@ const Footer: React.FC = () => {
                     data-aos-delay="100"
                 >
                     <h4>Company</h4>
-                    <a href="/">Home</a>
-                    <a href="/about">About us</a>
-                    <a href="/accommodation">Accommodation</a>
-                    <a href="/menus">Menus</a>
-                    <a href="/gallery">Gallery</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About us</Link>
+                    <Link to="/accommodation">Accommodation</Link>
+                    <Link to="/menus">Menus</Link>
+                    <Link to="/gallery">Gallery</Link>
                 </div>
 
                 <div
@@ -36,8 +37,8 @@ const Footer: React.FC = () => {
                     data-aos-delay="300"
                 >
                     <h4>My Account</h4>
-                    <a href="#">Teams & Conditions</a>
-                    <a href="/contact">Contact us</a>
+                    <Link to="/terms-conditions">Teams & Conditions</Link>
+                    <Link to="/contact">Contact us</Link>
                 </div>
                 <div
                     className="footer-col"

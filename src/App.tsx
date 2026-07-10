@@ -14,6 +14,7 @@ import Gallery from './pages/Gallery';
 import Accommodation from './pages/Accommodation';
 import Menu from './pages/Menu';
 import Contact from './pages/Contact';
+import TermsConditions from './pages/TeamsConditions';
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
         <Route path="/accommodation" element={<Accommodation />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms-conditions" element={<TermsConditions />} />
       </Routes>
       {/* <Newsletter /> */}
       <Footer />

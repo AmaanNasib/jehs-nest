@@ -10,7 +10,7 @@ const Accommodation = () => {
         <>
             <Breadcrumb
                 title="Accommodation"
-                bgImage="https://harnishdesign.net/demo/html/themist/images/slider/slide-1.jpg"
+                bgImage="/images/DSC08603-copy-768x512.jpg"
                 items={[
                     { label: "Home", href: "/" },
                     { label: "Accommodation" }

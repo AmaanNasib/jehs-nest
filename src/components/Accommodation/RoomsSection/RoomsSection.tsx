@@ -38,32 +38,21 @@ const RoomsSection = () => {
                         data-aos="fade-up"
                         data-aos-delay="0"
                     >
-
                         <img
-                            src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
-                            alt="Superior dormitory room"
+                            src="/images/DSC08440.jpg"
+                            alt="Reception & Administration"
                         />
 
                         <div className="room-overlay">
-
                             <span className="badge">
-                                Popular
+                                24×7 Assistance
                             </span>
 
                             <div className="info">
-
-                                <p>
-                                    Starting From ₹7,999 / MONTH
-                                </p>
-
-                                <h3>
-                                    Superior Rooms
-                                </h3>
-
+                                <p>Friendly Support & Check-in</p>
+                                <h3>Reception Area</h3>
                             </div>
-
                         </div>
-
                     </div>
 
                     {/* ROOM 2 */}
@@ -72,32 +61,21 @@ const RoomsSection = () => {
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
-
                         <img
-                            src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg"
-                            alt="Deluxe dormitory room"
+                            src="/images/DSC08619-copy-768x1152.jpg"
+                            alt="6 Sharing Dormitory"
                         />
 
                         <div className="room-overlay">
-
                             <span className="badge">
-                                Best Value
+                                Budget Friendly
                             </span>
 
                             <div className="info">
-
-                                <p>
-                                    Starting From ₹9,499 / MONTH
-                                </p>
-
-                                <h3>
-                                    Deluxe Rooms
-                                </h3>
-
+                                <p>Comfortable Shared Accommodation</p>
+                                <h3>6 Sharing Dormitory</h3>
                             </div>
-
                         </div>
-
                     </div>
 
                     {/* ROOM 3 */}
@@ -106,32 +84,21 @@ const RoomsSection = () => {
                         data-aos="fade-up"
                         data-aos-delay="200"
                     >
-
                         <img
-                            src="https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg"
-                            alt="Premium shared room"
+                            src="/images/DSC08264-copy-768x1152.jpg"
+                            alt="8 Sharing Dormitory"
                         />
 
                         <div className="room-overlay">
-
                             <span className="badge">
-                                Premium
+                                Student Favorite
                             </span>
 
                             <div className="info">
-
-                                <p>
-                                    Starting From ₹11,999 / MONTH
-                                </p>
-
-                                <h3>
-                                    Premium Rooms
-                                </h3>
-
+                                <p>Spacious & Well Ventilated</p>
+                                <h3>8 Sharing Dormitory</h3>
                             </div>
-
                         </div>
-
                     </div>
 
                     {/* ROOM 4 */}
@@ -140,32 +107,21 @@ const RoomsSection = () => {
                         data-aos="fade-up"
                         data-aos-delay="300"
                     >
-
                         <img
-                            src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg"
-                            alt="Executive accommodation room"
+                            src="/images/DSC08249-copy-768x512.jpg"
+                            alt="Privacy Bunk"
                         />
 
                         <div className="room-overlay">
-
                             <span className="badge">
-                                Spacious
+                                Privacy Curtains
                             </span>
 
                             <div className="info">
-
-                                <p>
-                                    Starting From ₹14,999 / MONTH
-                                </p>
-
-                                <h3>
-                                    Executive Rooms
-                                </h3>
-
+                                <p>Comfortable Individual Sleeping Space</p>
+                                <h3>Private Bunk Area</h3>
                             </div>
-
                         </div>
-
                     </div>
 
                     {/* ROOM 5 */}
@@ -174,32 +130,21 @@ const RoomsSection = () => {
                         data-aos="fade-up"
                         data-aos-delay="400"
                     >
-
                         <img
-                            src="https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg"
-                            alt="Studio style accommodation"
+                            src="/images/DSC08603-copy-768x512.jpg"
+                            alt="Modern Dormitory"
                         />
 
                         <div className="room-overlay">
-
                             <span className="badge">
-                                Luxury Stay
+                                Clean & Hygienic
                             </span>
 
                             <div className="info">
-
-                                <p>
-                                    Starting From ₹18,999 / MONTH
-                                </p>
-
-                                <h3>
-                                    Studio Room
-                                </h3>
-
+                                <p>Well Maintained Shared Accommodation</p>
+                                <h3>Modern Dormitory</h3>
                             </div>
-
                         </div>
-
                     </div>
 
                 </div>

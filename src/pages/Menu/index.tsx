@@ -7,7 +7,7 @@ const Menu = () => {
         <>
             <Breadcrumb
                 title="Meal"
-                bgImage="src/assets/images/5DGT2461.JPG"
+                bgImage="/images/5DGT2461.JPG"
                 items={[
                     { label: "Home", href: "/" },
                     { label: "Meal" }

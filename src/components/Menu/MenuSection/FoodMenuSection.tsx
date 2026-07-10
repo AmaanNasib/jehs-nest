@@ -6,42 +6,42 @@ const dishes = [
         desc: "A complete vegetarian meal with dal, seasonal vegetables, chapati, rice, papad, and fresh salad.",
         priceSmall: "Lunch",
         priceLarge: "Dinner",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.37 PM.jpeg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.37 PM.jpeg"
     },
     {
         name: "Dal",
         desc: "Traditional homemade dal cooked with aromatic spices, perfect with rice or roti.",
         priceSmall: "Fresh",
         priceLarge: "Daily",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (1)_.jpg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (1)_.jpg"
     },
     {
         name: "Laddu",
         desc: "Soft and delicious traditional laddus made using premium ingredients for every occasion.",
         priceSmall: "Fresh",
         priceLarge: "Sweet",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (2).jpeg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (2).jpeg"
     },
     {
         name: "Veg Platter",
         desc: "A delightful assortment of vegetarian dishes served with rice, curry, salad, and accompaniments.",
         priceSmall: "Special",
         priceLarge: "Meal",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg"
     },
     {
         name: "Halwa",
         desc: "Rich and flavorful traditional halwa garnished with premium dry fruits for a perfect dessert.",
         priceSmall: "Dessert",
         priceLarge: "Fresh",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.39 PM.jpeg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.39 PM.jpeg"
     },
     {
         name: "Fresh Salad",
         desc: "A healthy mix of fresh vegetables served as a refreshing accompaniment to every meal.",
         priceSmall: "Healthy",
         priceLarge: "Fresh",
-        img: "src/assets/images/IMG_1937.JPG"
+        img: "/images/IMG_1937.JPG"
     }
 ];
 const FoodMenuSection = () => {

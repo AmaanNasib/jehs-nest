@@ -2,10 +2,10 @@ import React from "react";
 import "./ExperienceSection.css";
 
 const steps = [
-    { id: "01", title: "Select Your Meal Plan", img: "src/assets/images/IMG_1937.JPG" },
-    { id: "02", title: "We Cook Fresh Daily", img: "src/assets/images/IMG_2086_.jpg" },
-    { id: "03", title: "Packed Hygienically", img: "src/assets/images/5DGT2400.JPG" },
-    { id: "04", title: "Delivered On Time", img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg" }
+    { id: "01", title: "Select Your Meal Plan", img: "/images/IMG_1937.JPG" },
+    { id: "02", title: "We Cook Fresh Daily", img: "/images/IMG_2086_.jpg" },
+    { id: "03", title: "Packed Hygienically", img: "/images/5DGT2400.JPG" },
+    { id: "04", title: "Delivered On Time", img: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg" }
 ];
 
 const ExperienceSection: React.FC = () => {
@@ -62,7 +62,7 @@ const ExperienceSection: React.FC = () => {
                         data-aos="fade-up"
                     >
                         <img
-                            src="src/assets/images/IMG_2085.JPG"
+                            src="/images/IMG_2085.JPG"
                             alt="tiffin meal"
                         />
                     </div>
@@ -87,7 +87,7 @@ const ExperienceSection: React.FC = () => {
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
-                            <img src="src/assets/images/IMG_1805.JPG" alt="chef" />
+                            <img src="/images/IMG_1805.JPG" alt="chef" />
 
                             <div className="exp-testimonial-text">
                                 <p>

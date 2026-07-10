@@ -5,32 +5,32 @@ const menuItems = [
     {
         title: "Veg Thali",
         desc: "A wholesome vegetarian thali featuring fresh chapati, rice, seasonal vegetables, curry, papad, and salad for a complete meal.",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.37 PM.jpeg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.37 PM.jpeg"
     },
     {
         title: "Dal",
         desc: "Traditional slow-cooked dal prepared with aromatic spices, offering a rich and comforting homemade flavor.",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (1)_.jpg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (1)_.jpg"
     },
     {
         title: "Laddu",
         desc: "Soft, delicious handcrafted laddus made with premium ingredients, perfect for every celebration and festive occasion.",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (2).jpeg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (2).jpeg"
     },
     {
         title: "Veg Platter",
         desc: "A delightful platter featuring a variety of flavorful vegetarian dishes, rice, curry, and accompaniments in one satisfying meal.",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg"
     },
     {
         title: "Sweet Dish (Halwa)",
         desc: "Rich and flavorful halwa made with premium ingredients, garnished with dry fruits for a delicious traditional dessert.",
-        img: "src/assets/images/WhatsApp Image 2026-05-01 at 6.55.39 PM.jpeg"
+        img: "/images/WhatsApp Image 2026-05-01 at 6.55.39 PM.jpeg"
     },
     {
         title: "Fresh Salad",
         desc: "A refreshing salad prepared with crisp vegetables and fresh ingredients, making the perfect healthy accompaniment.",
-        img: "src/assets/images/IMG_1937.JPG"
+        img: "/images/IMG_1937.JPG"
     }
 ];
 

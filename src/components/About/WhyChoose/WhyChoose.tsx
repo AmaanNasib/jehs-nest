@@ -129,7 +129,7 @@ const WhyChoose = () => {
                     >
 
                         <img
-                            src="src/assets/images/DSC08249-copy-768x512.jpg"
+                            src="/images/DSC08249-copy-768x512.jpg"
                             alt="Comfortable dormitory room"
                         />
 

@@ -70,7 +70,7 @@ const ContactSection = () => {
 
                 {/* LEFT IMAGE */}
                 <div className="contact-image" data-aos="fade-right">
-                    <img src="src/assets/images/5DGT2585.JPG" />
+                    <img src="/images/5DGT2585.JPG" />
 
                     <div className="contact-badge">
                         JEH'S NEST

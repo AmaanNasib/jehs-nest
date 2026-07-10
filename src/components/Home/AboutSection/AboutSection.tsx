@@ -14,7 +14,7 @@ const AboutSection: React.FC = () => {
                 "Comfortable and affordable living spaces",
                 "Reliable service with customer-first support"
             ],
-            img: "src/assets/images/5DGT2585.JPG"
+            img: "/images/5DGT2585.JPG"
         },
         vision: {
             title: "Our Vision",
@@ -23,7 +23,7 @@ const AboutSection: React.FC = () => {
                 "Build trusted community living spaces",
                 "Deliver consistent customer satisfaction"
             ],
-            img: "src/assets/images/IMG_1813_.jpg"
+            img: "/images/IMG_1813_.jpg"
         },
         value: {
             title: "Our Value",
@@ -32,7 +32,7 @@ const AboutSection: React.FC = () => {
                 "Quality Ingredients Always",
                 "Comfort Through Consistency"
             ],
-            img: "src/assets/images/5DGT2519_.jpg"
+            img: "/images/5DGT2519_.jpg"
         }
     };
 
@@ -49,7 +49,7 @@ const AboutSection: React.FC = () => {
                 >
                     <div className="image-main">
                         <img
-                            src="src/assets/images/5DGT2672.jpg"
+                            src="/images/5DGT2672.jpg"
                             alt="kitchen and dorm"
                         />
                     </div>
@@ -60,7 +60,7 @@ const AboutSection: React.FC = () => {
                         data-aos-delay="200"
                         style={{ width: "220px" }}
                     >
-                        <img src="src/assets/images/5DGT2504.JPG" alt="owner" width={200} />
+                        <img src="/images/5DGT2504.JPG" alt="owner" width={200} />
                     </div>
                 </div>
 

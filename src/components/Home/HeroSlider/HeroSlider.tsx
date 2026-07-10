@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 // @ts-ignore
-import slideImage from "../../../assets/images/5DGT2003_.jpg";
+import slideImage from "/images/5DGT2003_.jpg";
 // @ts-ignore
 import "swiper/css";
 // @ts-ignore
@@ -43,7 +43,7 @@ const slides = [
         ),
         desc:
             "Jeh’s Nest offers secure and thoughtfully managed dormitory spaces designed for comfort, hygiene, and community living with daily meal support.",
-        img: "src/assets/images/DSC08603-copy-768x512.jpg",
+        img: "/images/DSC08603-copy-768x512.jpg",
         btn1: "Book Your Stay",
         btn2: "Explore Rooms"
     }

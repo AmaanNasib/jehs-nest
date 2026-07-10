@@ -60,7 +60,7 @@ const MenuHighlight = () => {
                     >
 
                         <img
-                            src="src/assets/images/5DGT2140.JPG"
+                            src="/images/5DGT2140.JPG"
                             alt="Fresh healthy meal"
                         />
 
@@ -74,7 +74,7 @@ const MenuHighlight = () => {
                         >
 
                             <img
-                                src="src/assets/images/IMG_1805.JPG"
+                                src="/images/IMG_1805.JPG"
                                 alt="Freshly prepared food"
                             />
 
@@ -86,7 +86,7 @@ const MenuHighlight = () => {
                         >
 
                             <img
-                                src="src/assets/images/5DGT2111.JPG"
+                                src="/images/5DGT2111.JPG"
                                 alt="Healthy kitchen meal"
                             />
 

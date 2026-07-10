@@ -9,25 +9,24 @@ import "./TestimonialSection.css";
 
 const testimonials = [
     {
-        name: "Sam Johnson",
-        text: "I’ve been using this tiffin service for months and it genuinely feels like home-cooked food.",
-        role: "Working Professional",
-        img: "https://images.pexels.com/photos/12639564/pexels-photo-12639564.jpeg"
+        name: "Rahul Sharma",
+        text: "I've been ordering from Jeh's Kitchen for months. The food is always fresh, hygienic, and tastes just like a homemade meal. Highly recommended!",
+        role: "Software Engineer, Mumbai",
+        img: "/testi-one.jpg"
     },
     {
-        name: "Boris Elbert",
-        text: "As a student, managing meals was stressful. This service made it simple.",
-        role: "Student",
-        img: "https://placehold.co/300x350"
+        name: "Priya Patel",
+        text: "Being a working professional, I hardly get time to cook. Jeh's Kitchen has made my daily meals healthy, delicious, and hassle-free.",
+        role: "Marketing Executive, Pune",
+        img: "/testi-two.jpg"
     },
     {
-        name: "Serna Viktor",
-        text: "Food arrives on time every day and tastes great.",
-        role: "Customer",
-        img: "https://placehold.co/300x350"
+        name: "Amit Joshi",
+        text: "Excellent quality, generous portions, and authentic home-style taste. Their Veg Thali and Halwa are my absolute favorites!",
+        role: "Business Owner, Navi Mumbai",
+        img: "/testi-three.jpg"
     }
 ];
-
 const TestimonialSection: React.FC = () => {
     const swiperRef = useRef<any>(null);
     const [activeIndex, setActiveIndex] = useState(0);

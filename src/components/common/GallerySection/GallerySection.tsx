@@ -6,67 +6,67 @@ const tabs = ["All", "Team", "Kitchen", "Food", "Office"];
 
 const images = [
     // TEAM
-    { category: "Team", src: "/images/1 (2).jpg" },
-    { category: "Team", src: "/images/1 (3).jpg" },
-    { category: "Team", src: "/images/1 (4).jpg" },
-    { category: "Team", src: "/images/5DGT2516.JPG" },
-    { category: "Team", src: "/images/5DGT2517.JPG" },
-    { category: "Team", src: "/images/5DGT2519_.jpg" }, // Fixed
-    { category: "Team", src: "/images/IMG_1941.JPG" },
-    { category: "Team", src: "/images/IMG_1942_.jpg" }, // Fixed
-    { category: "Team", src: "/images/IMG_1943.JPG" },
-    { category: "Team", src: "/images/IMG_1944.JPG" },
-    { category: "Team", src: "/images/IMG_2006.JPG" },
-    { category: "Team", src: "/images/IMG_2016_.jpg" }, // Fixed
-    { category: "Team", src: "/images/IMG_2019_.jpg" }, // Fixed
-    { category: "Team", src: "/images/IMG_2024.JPG" },
+    { category: "Team", src: "/images/compressed/1 (2).webp" },
+    { category: "Team", src: "/images/compressed/1 (3).webp" },
+    { category: "Team", src: "/images/compressed/1 (4).webp" },
+    { category: "Team", src: "/images/compressed/5DGT2516.webp" },
+    { category: "Team", src: "/images/compressed/5DGT2517.webp" },
+    { category: "Team", src: "/images/compressed/5DGT2519_.webp" }, // Fixed
+    { category: "Team", src: "/images/compressed/IMG_1941.webp" },
+    { category: "Team", src: "/images/compressed/IMG_1942_.webp" }, // Fixed
+    { category: "Team", src: "/images/compressed/IMG_1943.webp" },
+    { category: "Team", src: "/images/compressed/IMG_1944.webp" },
+    { category: "Team", src: "/images/compressed/IMG_2006.webp" },
+    { category: "Team", src: "/images/compressed/IMG_2016_.webp" }, // Fixed
+    { category: "Team", src: "/images/compressed/IMG_2019_.webp" }, // Fixed
+    { category: "Team", src: "/images/compressed/IMG_2024.webp" },
 
     // KITCHEN
-    { category: "Kitchen", src: "/images/5DGT2003_.jpg" }, // Fixed
-    { category: "Kitchen", src: "/images/5DGT2010_.jpg" }, // Fixed
-    { category: "Kitchen", src: "/images/5DGT2012.JPG" },
-    { category: "Kitchen", src: "/images/5DGT2016.JPG" },
-    { category: "Kitchen", src: "/images/5DGT2018.JPG" },
-    { category: "Kitchen", src: "/images/5DGT2044.JPG" },
-    { category: "Kitchen", src: "/images/5DGT2058_.jpg" }, // Fixed
-    { category: "Kitchen", src: "/images/5DGT2062_.jpg" }, // Fixed
-    { category: "Kitchen", src: "/images/IMG_2084.JPG" },
-    { category: "Kitchen", src: "/images/IMG_2085.JPG" },
-    { category: "Kitchen", src: "/images/IMG_2086_.jpg" }, // Fixed
+    { category: "Kitchen", src: "/images/compressed/5DGT2003_.webp" }, // Fixed
+    { category: "Kitchen", src: "/images/compressed/5DGT2010_.webp" }, // Fixed
+    { category: "Kitchen", src: "/images/compressed/5DGT2012.webp" },
+    { category: "Kitchen", src: "/images/compressed/5DGT2016.webp" },
+    { category: "Kitchen", src: "/images/compressed/5DGT2018.webp" },
+    { category: "Kitchen", src: "/images/compressed/5DGT2044.webp" },
+    { category: "Kitchen", src: "/images/compressed/5DGT2058_.webp" }, // Fixed
+    { category: "Kitchen", src: "/images/compressed/5DGT2062_.webp" }, // Fixed
+    { category: "Kitchen", src: "/images/compressed/IMG_2084.webp" },
+    { category: "Kitchen", src: "/images/compressed/IMG_2085.webp" },
+    { category: "Kitchen", src: "/images/compressed/IMG_2086_.webp" }, // Fixed
 
     // FOOD
-    { category: "Food", src: "/images/5DGT2174.JPG" },
-    { category: "Food", src: "/images/5DGT2186_.jpg" }, // Fixed
-    { category: "Food", src: "/images/5DGT2247.JPG" },
-    { category: "Food", src: "/images/5DGT2400.JPG" },
-    { category: "Food", src: "/images/5DGT2458.JPG" },
-    { category: "Food", src: "/images/5DGT2461.JPG" },
-    { category: "Food", src: "/images/IMG_1738.JPG" },
-    { category: "Food", src: "/images/IMG_1740.JPG" },
-    { category: "Food", src: "/images/IMG_1805.JPG" },
-    { category: "Food", src: "/images/IMG_1813_.jpg" }, // Fixed
-    { category: "Food", src: "/images/IMG_1891.JPG" },
-    { category: "Food", src: "/images/IMG_1892.JPG" },
-    { category: "Food", src: "/images/IMG_1895.JPG" },
-    { category: "Food", src: "/images/WhatsApp Image 2026-05-01 at 6.55.37 PM.jpeg" }, // Fixed
-    { category: "Food", src: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (1)_.jpg" }, // Fixed
-    { category: "Food", src: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM (2).jpeg" },
-    { category: "Food", src: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg" },
-    { category: "Food", src: "/images/WhatsApp Image 2026-05-01 at 6.55.39 PM.jpeg" },
+    { category: "Food", src: "/images/compressed/5DGT2174.webp" },
+    { category: "Food", src: "/images/compressed/5DGT2186_.webp" }, // Fixed
+    { category: "Food", src: "/images/compressed/5DGT2247.webp" },
+    { category: "Food", src: "/images/compressed/5DGT2400.webp" },
+    { category: "Food", src: "/images/compressed/5DGT2458.webp" },
+    { category: "Food", src: "/images/compressed/5DGT2461.webp" },
+    { category: "Food", src: "/images/compressed/IMG_1738.webp" },
+    { category: "Food", src: "/images/compressed/IMG_1740.webp" },
+    { category: "Food", src: "/images/compressed/IMG_1805.webp" },
+    { category: "Food", src: "/images/compressed/IMG_1813_.webp" }, // Fixed
+    { category: "Food", src: "/images/compressed/IMG_1891.webp" },
+    { category: "Food", src: "/images/compressed/IMG_1892.webp" },
+    { category: "Food", src: "/images/compressed/IMG_1895.webp" },
+    { category: "Food", src: "/images/compressed/WhatsApp Image 2026-05-01 at 6.55.37 PM.webp" }, // Fixed
+    { category: "Food", src: "/images/compressed/WhatsApp Image 2026-05-01 at 6.55.38 PM (1)_.webp" }, // Fixed
+    { category: "Food", src: "/images/compressed/WhatsApp Image 2026-05-01 at 6.55.38 PM (2).webp" },
+    { category: "Food", src: "/images/compressed/WhatsApp Image 2026-05-01 at 6.55.38 PM.webp" },
+    { category: "Food", src: "/images/compressed/WhatsApp Image 2026-05-01 at 6.55.39 PM.webp" },
 
     // OFFICE
-    { category: "Office", src: "/images/5DGT2672.JPG" },
-    { category: "Office", src: "/images/5DGT2675.JPG" },
-    { category: "Office", src: "/images/5DGT2688.JPG" },
-    { category: "Office", src: "/images/DSC08249-copy-768x512.jpg" },
-    { category: "Office", src: "/images/DSC08264-copy-768x1152.jpg" },
-    { category: "Office", src: "/images/DSC08406-copy-768x512.jpg" },
-    { category: "Office", src: "/images/DSC08440.jpg" },
-    { category: "Office", src: "/images/IMG_2091.JPG" },
-    { category: "Office", src: "/images/IMG_2111.JPG" },
+    { category: "Office", src: "/images/compressed/5DGT2672.webp" },
+    { category: "Office", src: "/images/compressed/5DGT2675.webp" },
+    { category: "Office", src: "/images/compressed/5DGT2688.webp" },
+    { category: "Office", src: "/images/compressed/DSC08249-copy-768x512.webp" },
+    { category: "Office", src: "/images/compressed/DSC08264-copy-768x1152.webp" },
+    { category: "Office", src: "/images/compressed/DSC08406-copy-768x512.webp" },
+    { category: "Office", src: "/images/compressed/DSC08440.webp" },
+    { category: "Office", src: "/images/compressed/IMG_2091.webp" },
+    { category: "Office", src: "/images/compressed/IMG_2111.webp" },
     {
         category: "Office",
-        src: "/images/Jehs-Nest-Luxury-AC-Dormitory-Picture-of-the-business-which-shows-clear-signage--768x741.jpg", // Fixed
+        src: "/images/compressed/Jehs-Nest-Luxury-AC-Dormitory-Picture-of-the-business-which-shows-clear-signage--768x741.webp", // Fixed
     },
 ];
 
@@ -83,7 +83,7 @@ const GallerySection: React.FC = () => {
         <section className="gallery-section">
             <Breadcrumb
                 title="Gallery"
-                bgImage="/images/5DGT2400.JPG"
+                bgImage="/images/compressed/5DGT2400.webp"
                 items={[
                     { label: "Home", href: "/" },
                     { label: "Gallery" }

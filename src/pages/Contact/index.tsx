@@ -6,7 +6,7 @@ const Contact = () => {
         <div>
             <Breadcrumb
                 title="Contact Us"
-                bgImage="/images/5DGT2400.JPG"
+                bgImage="/images/compressed/5DGT2400.webp"
                 items={[
                     { label: "Home", href: "/" },
                     { label: "Contact Us" }

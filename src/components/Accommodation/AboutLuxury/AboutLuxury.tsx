@@ -79,7 +79,7 @@ const AboutLuxury = () => {
                 >
 
                     <img
-                        src="/images/DSC08249-copy-768x512.jpg"
+                        src="/images/compressed/DSC08249-copy-768x512.webp"
                         alt="Jeh's Nest dormitory room"
                     />
 

@@ -2,10 +2,10 @@ import React from "react";
 import "./ExperienceSection.css";
 
 const steps = [
-    { id: "01", title: "Select Your Meal Plan", img: "/images/IMG_1937.JPG" },
-    { id: "02", title: "We Cook Fresh Daily", img: "/images/IMG_2086_.jpg" },
-    { id: "03", title: "Packed Hygienically", img: "/images/5DGT2400.JPG" },
-    { id: "04", title: "Delivered On Time", img: "/images/WhatsApp Image 2026-05-01 at 6.55.38 PM.jpeg" }
+    { id: "01", title: "Select Your Meal Plan", img: "/images/compressed/IMG_1937.webp" },
+    { id: "02", title: "We Cook Fresh Daily", img: "/images/compressed/IMG_2086_.webp" },
+    { id: "03", title: "Packed Hygienically", img: "/images/compressed/5DGT2400.webp" },
+    { id: "04", title: "Delivered On Time", img: "/images/compressed/WhatsApp Image 2026-05-01 at 6.55.38 PM.webp" }
 ];
 
 const ExperienceSection: React.FC = () => {
@@ -62,7 +62,7 @@ const ExperienceSection: React.FC = () => {
                         data-aos="fade-up"
                     >
                         <img
-                            src="/images/IMG_2085.JPG"
+                            src="/images/compressed/IMG_2085.webp"
                             alt="tiffin meal"
                         />
                     </div>
@@ -87,7 +87,7 @@ const ExperienceSection: React.FC = () => {
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
-                            <img src="/images/IMG_1805.JPG" alt="chef" />
+                            <img src="/images/compressed/IMG_1805.webp" alt="chef" />
 
                             <div className="exp-testimonial-text">
                                 <p>

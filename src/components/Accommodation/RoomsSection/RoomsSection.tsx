@@ -39,7 +39,7 @@ const RoomsSection = () => {
                         data-aos-delay="0"
                     >
                         <img
-                            src="/images/DSC08440.jpg"
+                            src="/images/compressed/DSC08440.webp"
                             alt="Reception & Administration"
                         />
 
@@ -62,7 +62,7 @@ const RoomsSection = () => {
                         data-aos-delay="100"
                     >
                         <img
-                            src="/images/DSC08619-copy-768x1152.jpg"
+                            src="/images/compressed/DSC08619-copy-768x1152.webp"
                             alt="6 Sharing Dormitory"
                         />
 
@@ -85,7 +85,7 @@ const RoomsSection = () => {
                         data-aos-delay="200"
                     >
                         <img
-                            src="/images/DSC08264-copy-768x1152.jpg"
+                            src="/images/compressed/DSC08264-copy-768x1152.webp"
                             alt="8 Sharing Dormitory"
                         />
 
@@ -108,7 +108,7 @@ const RoomsSection = () => {
                         data-aos-delay="300"
                     >
                         <img
-                            src="/images/DSC08249-copy-768x512.jpg"
+                            src="/images/compressed/DSC08249-copy-768x512.webp"
                             alt="Privacy Bunk"
                         />
 
@@ -131,7 +131,7 @@ const RoomsSection = () => {
                         data-aos-delay="400"
                     >
                         <img
-                            src="/images/DSC08603-copy-768x512.jpg"
+                            src="/images/compressed/DSC08603-copy-768x512.webp"
                             alt="Modern Dormitory"
                         />
 

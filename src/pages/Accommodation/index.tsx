@@ -10,7 +10,7 @@ const Accommodation = () => {
         <>
             <Breadcrumb
                 title="Accommodation"
-                bgImage="/images/DSC08603-copy-768x512.jpg"
+                bgImage="/images/compressed/DSC08603-copy-768x512.webp"
                 items={[
                     { label: "Home", href: "/" },
                     { label: "Accommodation" }

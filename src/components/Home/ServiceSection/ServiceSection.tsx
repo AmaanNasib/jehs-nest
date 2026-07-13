@@ -5,22 +5,22 @@ const services = [
     {
         title: "Tiffin Service",
         desc: "Fresh homely meals delivered daily with rotating menus, hygienic packaging, and affordable meal plans.",
-        img: "/images/IMG_1891.JPG"
+        img: "/images/compressed/IMG_1891.webp"
     },
     {
         title: "Central Kitchen",
         desc: "850 sq ft modern kitchen infrastructure equipped with SS304-grade systems, quality control, and advanced ventilation.",
-        img: "/images/IMG_2086_.jpg"
+        img: "/images/compressed/IMG_2086_.webp"
     },
     {
         title: "Men’s Dormitory",
         desc: "Comfortable and professionally managed living spaces designed for students and working professionals.",
-        img: "/images/DSC08440.jpg"
+        img: "/images/compressed/DSC08440.webp"
     },
     {
         title: "Women’s Dormitory",
         desc: "Safe and hygienic accommodation focused on comfort, privacy, and community living.",
-        img: "/images/DSC08603-copy-768x512.jpg"
+        img: "/images/compressed/DSC08603-copy-768x512.webp"
     }
 ];
 

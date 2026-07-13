@@ -8,7 +8,7 @@ const About = () => {
         <>
             <Breadcrumb
                 title="About Us"
-                bgImage="/images/IMG_1891.JPG"
+                bgImage="/images/compressed/IMG_1891.webp"
                 items={[
                     { label: "Home", href: "/" },
                     { label: "About Us" }

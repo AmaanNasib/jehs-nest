@@ -16,7 +16,7 @@ const ExperienceSection = () => {
                 >
 
                     <img
-                        src="/images/DSC08603-copy-768x512.jpg"
+                        src="/images/compressed/DSC08603-copy-768x512.webp"
                         alt="Jeh's Nest Dormitory"
                     />
                 </div>

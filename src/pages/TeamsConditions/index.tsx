@@ -5,7 +5,7 @@ const TermsConditions = () => {
         <>
             <Breadcrumb
                 title="Terms & Conditions"
-                bgImage="/images/5DGT2461.JPG"
+                bgImage="/images/compressed/5DGT2461.webp"
                 items={[
                     { label: "Home", href: "/" },
                     { label: "Terms & Conditions" }
